@@ -1,0 +1,96 @@
+manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: https://github.com/StefanHamminga
+
+  projects:
+    - name: SH_Antennas.pretty
+      revision: master
+      path: StefanHamminga/SH_Antennas
+      groups:
+        - footprint
+    - name: SH_Audio.pretty
+      revision: master
+      path: StefanHamminga/SH_Audio
+      groups:
+        - footprint
+    - name: SH_Batteries.pretty
+      revision: master
+      path: StefanHamminga/SH_Batteries
+      groups:
+        - footprint
+    - name: SH_BGA.pretty
+      revision: master
+      path: StefanHamminga/SH_BGA
+      groups:
+        - footprint
+    - name: SH_Capacitors.pretty
+      revision: master
+      path: StefanHamminga/SH_Capacitors
+      groups:
+        - footprint
+    - name: SH_Connectors.pretty
+      revision: master
+      path: StefanHamminga/SH_Connectors
+      groups:
+        - footprint
+    - name: SH_Crystals_Oscillators.pretty
+      revision: master
+      path: StefanHamminga/SH_Crystals_Oscillators
+      groups:
+        - footprint
+    - name: SH_Diodes.pretty
+      revision: master
+      path: StefanHamminga/SH_Diodes
+      groups:
+        - footprint
+    - name: SH_Filters.pretty
+      revision: master
+      path: StefanHamminga/SH_Filters
+      groups:
+        - footprint
+    - name: SH_IC_Custom.pretty
+      revision: master
+      path: StefanHamminga/SH_IC_Custom
+      groups:
+        - footprint
+    - name: SH_Inductors.pretty
+      revision: master
+      path: StefanHamminga/SH_Inductors
+      groups:
+        - footprint
+    - name: SH_Jumper_Pins.pretty
+      revision: master
+      path: StefanHamminga/SH_Jumper_Pins
+      groups:
+        - footprint
+    - name: SH_Mechanical.pretty
+      revision: master
+      path: StefanHamminga/SH_Mechanical
+      groups:
+        - footprint
+    - name: SH_Modules.pretty
+      revision: master
+      path: StefanHamminga/SH_Modules
+      groups:
+        - footprint
+    - name: SH_QFN_QFP.pretty
+      revision: master
+      path: StefanHamminga/SH_QFN_QFP
+      groups:
+        - footprint
+    - name: StefanHamminga-kicad-footprints
+      revision: master
+      path: StefanHamminga/kicad-footprints
+      repo-path: kicad-footprints
+      groups:
+        - footprint
+    - name: StefanHamminga-kicad-packages3D
+      revision: master
+      path: StefanHamminga/kicad-packages3D
+      repo-path: kicad-packages3D
+      groups:
+        - footprint

@@ -1,0 +1,24 @@
+manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: https://gitlab.com/kicad/libraries
+
+  projects:
+    - name: kicad-symbols
+      revision: master
+      path: kicad/symbols
+      groups:
+        - symbols
+    - name: kicad-footprints
+      revision: master
+      path: kicad/footprints
+      groups:
+        - footprint
+    - name: kicad-packages3D
+      revision: master
+      path: kicad/packages3D
+      groups:
+        - package3d
