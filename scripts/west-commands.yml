@@ -4,3 +4,13 @@ west-commands:
       - name: example-west-command
         class: ExampleWestCommand
         help: an example west extension command
+  - file: scripts/footprint.py
+    commands:
+      - name: footprint
+        class: Footprint
+        help: generate footprint table command
+  - file: scripts/symbol.py
+    commands:
+      - name: symbol
+        class: Symbol
+        help: generate symbol table command
