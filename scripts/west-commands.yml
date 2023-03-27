@@ -14,3 +14,8 @@ west-commands:
       - name: symbol
         class: Symbol
         help: generate symbol table command
+  - file: scripts/gitmodule.py
+    commands:
+      - name: gitmodule
+        class: GitModule
+        help: read a git repository submodule to generate submanifests
