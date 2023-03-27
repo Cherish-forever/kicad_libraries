@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: theFork-Solderjumpers.pretty
+    path: theFork/Solderjumpers
+    remote: github
+    repo-path: Solderjumpers.pretty
+    revision: master
+  - name: theFork-uMIDI.pretty
+    path: theFork/uMIDI
+    remote: github
+    repo-path: uMIDI.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/theFork

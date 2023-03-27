@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rdeterre-misc.pretty
+    path: rdeterre/misc
+    remote: github
+    repo-path: misc.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rdeterre

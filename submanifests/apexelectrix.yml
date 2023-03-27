@@ -1,0 +1,65 @@
+manifest:
+  projects:
+  - name: apexelectrix-Apex.pretty
+    path: apexelectrix/Apex
+    remote: github
+    repo-path: Apex.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-resistors.pretty
+    path: apexelectrix/apex-smd-resistors
+    remote: github
+    repo-path: apex-smd-resistors.pretty
+    revision: master
+  - name: apexelectrix-apex-screw-terminals.pretty
+    path: apexelectrix/apex-screw-terminals
+    remote: github
+    repo-path: apex-screw-terminals.pretty
+    revision: master
+  - name: apexelectrix-apex-fuses.pretty
+    path: apexelectrix/apex-fuses
+    remote: github
+    repo-path: apex-fuses.pretty
+    revision: master
+  - name: apexelectrix-apex-smd.pretty
+    path: apexelectrix/apex-smd
+    remote: github
+    repo-path: apex-smd.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-capacitors.pretty
+    path: apexelectrix/apex-smd-capacitors
+    remote: github
+    repo-path: apex-smd-capacitors.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-connectors.pretty
+    path: apexelectrix/apex-smd-connectors
+    remote: github
+    repo-path: apex-smd-connectors.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-diode.pretty
+    path: apexelectrix/apex-smd-diod
+    remote: github
+    repo-path: apex-smd-diode.pretty
+    revision: master
+  - name: apexelectrix-apex-pin-headers.pretty
+    path: apexelectrix/apex-pin-headers
+    remote: github
+    repo-path: apex-pin-headers.pretty
+    revision: master
+  - name: apexelectrix-apex-pin-connectors.pretty
+    path: apexelectrix/apex-pin-connectors
+    remote: github
+    repo-path: apex-pin-connectors.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-crystals.pretty
+    path: apexelectrix/apex-smd-crystals
+    remote: github
+    repo-path: apex-smd-crystals.pretty
+    revision: master
+  - name: apexelectrix-apex-smd-wire-pads.pretty
+    path: apexelectrix/apex-smd-wire-pads
+    remote: github
+    repo-path: apex-smd-wire-pads.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/apexelectrix

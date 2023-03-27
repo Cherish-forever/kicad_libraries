@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: shelaf-dygma-raise_fp.pretty
+    path: shelaf-dygma/raise_f
+    remote: github
+    repo-path: raise_fp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/shelaf-dygma

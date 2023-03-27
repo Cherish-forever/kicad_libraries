@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kiu-kiu-footprint.pretty
+    path: kiu/kiu-footprin
+    remote: github
+    repo-path: kiu-footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kiu

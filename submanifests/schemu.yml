@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: schemu-Housings_CDFP_RUS.pretty
+    path: schemu/Housings_CDFP_RUS
+    remote: github
+    repo-path: Housings_CDFP_RUS.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/schemu

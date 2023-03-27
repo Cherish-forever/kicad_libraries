@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: fudge01010-fudge-kicad-footprints.pretty
+    path: fudge01010/fudge-kicad-footprints
+    remote: github
+    repo-path: fudge-kicad-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/fudge01010

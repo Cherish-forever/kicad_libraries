@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mamiksik-kicad-components.pretty
+    path: mamiksik/kicad-components
+    remote: github
+    repo-path: kicad-components.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mamiksik

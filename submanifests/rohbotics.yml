@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rohbotics-IPC7351-Nominal.pretty
+    path: rohbotics/IPC7351-Nominal
+    remote: github
+    repo-path: IPC7351-Nominal.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rohbotics

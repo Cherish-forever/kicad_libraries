@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: monostable-CommonPartsLibrary.pretty
+    path: monostable/CommonPartsLibra
+    remote: github
+    repo-path: CommonPartsLibrary.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/monostable

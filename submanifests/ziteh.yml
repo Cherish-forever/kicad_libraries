@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ziteh-key-switches.pretty
+    path: ziteh/key-switches
+    remote: github
+    repo-path: key-switches.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/ziteh

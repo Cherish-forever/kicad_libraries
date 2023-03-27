@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Drc3p0-Prototyping_Workshop
+    path: Drc3p0/Prototyping_Worksho
+    remote: github
+    repo-path: Prototyping_Workshop
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Drc3p0

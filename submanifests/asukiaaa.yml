@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: asukiaaa-my-kicad-footprints.pretty
+    path: asukiaaa/my-kicad-footprints
+    remote: github
+    repo-path: my-kicad-footprints.pretty
+    revision: master
+  - name: asukiaaa-asukiaaa-kicad-footprints.pretty
+    path: asukiaaa/asukiaaa-kicad-footprints
+    remote: github
+    repo-path: asukiaaa-kicad-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/asukiaaa

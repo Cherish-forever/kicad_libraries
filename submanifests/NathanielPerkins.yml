@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: NathanielPerkins-NPFootprints.pretty
+    path: NathanielPerkins/NPFootprints
+    remote: github
+    repo-path: NPFootprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/NathanielPerkins

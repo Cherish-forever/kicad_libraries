@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: leptun-leptunKicadLib.pretty
+    path: leptun/leptunKicadLib
+    remote: github
+    repo-path: leptunKicadLib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/leptun

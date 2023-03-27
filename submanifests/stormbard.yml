@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: stormbard-Keyboard.pretty
+    path: stormbard/Keyboard
+    remote: github
+    repo-path: Keyboard.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/stormbard

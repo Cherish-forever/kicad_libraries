@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rocketscream-RocketScreamKicadLibrary
+    path: rocketscream/RocketScreamKicadLibra
+    remote: github
+    repo-path: RocketScreamKicadLibrary
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rocketscream

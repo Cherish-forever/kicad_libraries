@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: myelin-myelin-kicad.pretty
+    path: myelin/myelin-kicad
+    remote: github
+    repo-path: myelin-kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/myelin

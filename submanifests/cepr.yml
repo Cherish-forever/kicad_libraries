@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cepr-Bluetooth_Modules.pretty
+    path: cepr/Bluetooth_Modules
+    remote: github
+    repo-path: Bluetooth_Modules.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cepr

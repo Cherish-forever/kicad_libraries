@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: MacroFab-EDALibraries
+    path: MacroFab/EDALibraries
+    remote: github
+    repo-path: EDALibraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/MacroFab

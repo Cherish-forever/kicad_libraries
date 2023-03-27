@@ -1,0 +1,20 @@
+manifest:
+  projects:
+  - name: Gijsco-Kicad_Footprint_Modules.pretty
+    path: Gijsco/Kicad_Footprint_Modules
+    remote: github
+    repo-path: Kicad_Footprint_Modules.pretty
+    revision: master
+  - name: Gijsco-Kicad_Footprint_Connectors.pretty
+    path: Gijsco/Kicad_Footprint_Connectors
+    remote: github
+    repo-path: Kicad_Footprint_Connectors.pretty
+    revision: master
+  - name: Gijsco-Kicad_Footprint_Packages.pretty
+    path: Gijsco/Kicad_Footprint_Packages
+    remote: github
+    repo-path: Kicad_Footprint_Packages.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Gijsco

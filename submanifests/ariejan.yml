@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ariejan-ariejan.pretty
+    path: ariejan/ariejan
+    remote: github
+    repo-path: ariejan.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ariejan

@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: XenGi-teensy.pretty
+    path: XenGi/teens
+    remote: github
+    repo-path: teensy.pretty
+    revision: master
+  - name: XenGi-kailh_big_series.pretty
+    path: XenGi/kailh_big_series
+    remote: github
+    repo-path: kailh_big_series.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/XenGi

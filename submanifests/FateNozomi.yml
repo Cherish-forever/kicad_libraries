@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: FateNozomi-Fate_Parts.pretty
+    path: FateNozomi/Fate_Parts
+    remote: github
+    repo-path: Fate_Parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/FateNozomi

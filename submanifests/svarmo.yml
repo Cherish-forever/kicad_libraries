@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: svarmo-kicadParts.pretty
+    path: svarmo/kicadParts
+    remote: github
+    repo-path: kicadParts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/svarmo

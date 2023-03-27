@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ElectronicCats-ComponentLibrariesKicadWurthElektronik
+    path: ElectronicCats/ComponentLibrariesKicadWurthElektronik
+    remote: github
+    repo-path: ComponentLibrariesKicadWurthElektronik
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ElectronicCats

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: gorbachev-KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty
+    path: gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32
+    remote: github
+    repo-path: KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/gorbachev

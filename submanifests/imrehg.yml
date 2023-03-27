@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: imrehg-kicalopl
+    path: imrehg/kicalopl
+    remote: github
+    repo-path: kicalopl
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/imrehg

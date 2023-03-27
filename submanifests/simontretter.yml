@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: simontretter-mediaarchitectu.re.pretty
+    path: simontretter/mediaarchitectu
+    remote: github
+    repo-path: mediaarchitectu.re.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/simontretter

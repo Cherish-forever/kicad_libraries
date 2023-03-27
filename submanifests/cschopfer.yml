@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cschopfer-digipict-kicad-footprint.pretty
+    path: cschopfer/digipict-kicad-footprin
+    remote: github
+    repo-path: digipict-kicad-footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cschopfer

@@ -1,0 +1,35 @@
+manifest:
+  projects:
+  - name: ruriwo-KiCad_Ceralock.pretty
+    path: ruriwo/KiCad_Ceralock
+    remote: github
+    repo-path: KiCad_Ceralock.pretty
+    revision: master
+  - name: ruriwo-KiCad_Switches.pretty
+    path: ruriwo/KiCad_Switches
+    remote: github
+    repo-path: KiCad_Switches.pretty
+    revision: master
+  - name: ruriwo-KiCad_CherryMx.pretty
+    path: ruriwo/KiCad_CherryMx
+    remote: github
+    repo-path: KiCad_CherryMx.pretty
+    revision: master
+  - name: ruriwo-KiCad_MoutingHole.pretty
+    path: ruriwo/KiCad_MoutingHol
+    remote: github
+    repo-path: KiCad_MoutingHole.pretty
+    revision: master
+  - name: ruriwo-KiCad_MicroUSB.pretty
+    path: ruriwo/KiCad_MicroUSB
+    remote: github
+    repo-path: KiCad_MicroUSB.pretty
+    revision: master
+  - name: ruriwo-GND_via.pretty
+    path: ruriwo/GND_via
+    remote: github
+    repo-path: GND_via.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ruriwo

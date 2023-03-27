@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: notsockx-kiboard.pretty
+    path: notsockx/kiboard
+    remote: github
+    repo-path: kiboard.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/notsockx

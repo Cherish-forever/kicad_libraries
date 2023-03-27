@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nutbolt-WS2852.pretty
+    path: nutbolt/WS2852
+    remote: github
+    repo-path: WS2852.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nutbolt

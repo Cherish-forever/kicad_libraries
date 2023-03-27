@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: OssiconeLabs-Ossicone_Labs_Footprints.pretty
+    path: OssiconeLabs/Ossicone_Labs_Footprints
+    remote: github
+    repo-path: Ossicone_Labs_Footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/OssiconeLabs

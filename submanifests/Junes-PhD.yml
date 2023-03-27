@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Junes-PhD-kicad_arbitrary_pad_example
+    path: Junes-PhD/kicad_arbitrary_pad_exampl
+    remote: github
+    repo-path: kicad_arbitrary_pad_example
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Junes-PhD

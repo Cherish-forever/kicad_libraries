@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cvra-kicad-lib
+    path: cvra/kicad-lib
+    remote: github
+    repo-path: kicad-lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cvra

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: hiroieee-kicad-lib.pretty
+    path: hiroieee/kicad-lib
+    remote: github
+    repo-path: kicad-lib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/hiroieee

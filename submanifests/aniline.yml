@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: aniline-akn_misc.pretty
+    path: aniline/akn_misc
+    remote: github
+    repo-path: akn_misc.pretty
+    revision: master
+  - name: aniline-akn_transformers.pretty
+    path: aniline/akn_transformers
+    remote: github
+    repo-path: akn_transformers.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aniline

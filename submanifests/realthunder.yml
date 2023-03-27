@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: realthunder-Misc.pretty
+    path: realthunder/Misc
+    remote: github
+    repo-path: Misc.pretty
+    revision: master
+  - name: realthunder-Connectors_Amass.pretty
+    path: realthunder/Connectors_Amass
+    remote: github
+    repo-path: Connectors_Amass.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/realthunder

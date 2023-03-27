@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: imciner2-KiCad-Libraries
+    path: imciner2/KiCad-Libraries
+    remote: github
+    repo-path: KiCad-Libraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/imciner2

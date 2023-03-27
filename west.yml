@@ -22,14 +22,6 @@ manifest:
     - name: origin
       url-base: https://github.com
 
-  #
-  # Please add yourself kicad libraries below
-  projects:
-    - name: cherish
-      revision: master
-      repo-path: Cherish-forever/kicad
-      path: cherish
-
   self:
     path: .kicad_libraries
     west-commands: scripts/west-commands.yml

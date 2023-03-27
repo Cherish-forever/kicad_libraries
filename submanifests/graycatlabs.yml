@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: graycatlabs-OSD335x.pretty
+    path: graycatlabs/OSD335x
+    remote: github
+    repo-path: OSD335x.pretty
+    revision: master
+  - name: graycatlabs-GrayCatLabs.pretty
+    path: graycatlabs/GrayCatLabs
+    remote: github
+    repo-path: GrayCatLabs.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/graycatlabs

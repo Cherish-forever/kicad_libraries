@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: fruchti-fruchtilib
+    path: fruchti/fruchtilib
+    remote: github
+    repo-path: fruchtilib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/fruchti

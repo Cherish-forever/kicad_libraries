@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: johaa1993-KiCad-Dev.pretty
+    path: johaa1993/KiCad-Dev
+    remote: github
+    repo-path: KiCad-Dev.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/johaa1993

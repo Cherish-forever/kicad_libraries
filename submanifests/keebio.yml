@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: keebio-Keebio-Parts.pretty
+    path: keebio/Keebio-Parts
+    remote: github
+    repo-path: Keebio-Parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/keebio

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: natsfr-kicad-components
+    path: natsfr/kicad-components
+    remote: github
+    repo-path: kicad-components
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/natsfr

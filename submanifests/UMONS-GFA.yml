@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: UMONS-GFA-kicad-gfa.pretty
+    path: UMONS-GFA/kicad-gfa
+    remote: github
+    repo-path: kicad-gfa.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/UMONS-GFA

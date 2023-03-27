@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: labitat-labitat_kicad_footprints.pretty
+    path: labitat/labitat_kicad_footprints
+    remote: github
+    repo-path: labitat_kicad_footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/labitat

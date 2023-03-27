@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: freetronics-freetronics_kicad_library
+    path: freetronics/freetronics_kicad_libra
+    remote: github
+    repo-path: freetronics_kicad_library
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/freetronics

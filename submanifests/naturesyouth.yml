@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: naturesyouth-Footprints.pretty
+    path: naturesyouth/Footprints
+    remote: github
+    repo-path: Footprints.pretty
+    revision: master
+  - name: naturesyouth-meastro_gnss.pretty
+    path: naturesyouth/meastro_gnss
+    remote: github
+    repo-path: meastro_gnss.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/naturesyouth

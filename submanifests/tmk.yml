@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: tmk-keyboard_parts.pretty
+    path: tmk/keyboard_parts
+    remote: github
+    repo-path: keyboard_parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tmk

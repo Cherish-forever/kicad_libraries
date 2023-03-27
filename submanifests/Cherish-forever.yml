@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Cherish-forever-kicad
+    path: Cherish-forever/kicad
+    remote: github
+    repo-path: kicad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Cherish-forever

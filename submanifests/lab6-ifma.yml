@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: lab6-ifma-LAB6-LIB.pretty
+    path: lab6-ifma/LAB6-LIB
+    remote: github
+    repo-path: LAB6-LIB.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/lab6-ifma

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: av-p-Avp.pretty
+    path: av-p/Av
+    remote: github
+    repo-path: Avp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/av-p

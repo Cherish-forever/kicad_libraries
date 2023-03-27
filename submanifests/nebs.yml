@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nebs-eurocad
+    path: nebs/eurocad
+    remote: github
+    repo-path: eurocad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nebs

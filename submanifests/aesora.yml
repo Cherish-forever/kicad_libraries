@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: aesora-aesora.pretty
+    path: aesora/aesora
+    remote: github
+    repo-path: aesora.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aesora

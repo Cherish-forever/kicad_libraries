@@ -1,0 +1,40 @@
+manifest:
+  projects:
+  - name: johslarsen-Misc.pretty
+    path: johslarsen/Misc
+    remote: github
+    repo-path: Misc.pretty
+    revision: master
+  - name: johslarsen-SMD.pretty
+    path: johslarsen/SMD
+    remote: github
+    repo-path: SMD.pretty
+    revision: master
+  - name: johslarsen-Connectors.pretty
+    path: johslarsen/Connectors
+    remote: github
+    repo-path: Connectors.pretty
+    revision: master
+  - name: johslarsen-Switches.pretty
+    path: johslarsen/Switches
+    remote: github
+    repo-path: Switches.pretty
+    revision: master
+  - name: johslarsen-Integrated_Circuits.pretty
+    path: johslarsen/Integrated_Circuits
+    remote: github
+    repo-path: Integrated_Circuits.pretty
+    revision: master
+  - name: johslarsen-2.54mm_Pin_Headers.pretty
+    path: johslarsen/2.54mm_Pin_Headers
+    remote: github
+    repo-path: 2.54mm_Pin_Headers.pretty
+    revision: master
+  - name: johslarsen-Power_Module_SMD_Cyntec_MUN12AD.pretty
+    path: johslarsen/Power_Module_SMD_Cyntec_MUN12AD
+    remote: github
+    repo-path: Power_Module_SMD_Cyntec_MUN12AD.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/johslarsen

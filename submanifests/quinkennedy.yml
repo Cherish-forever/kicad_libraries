@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: quinkennedy-chillpizza.pretty
+    path: quinkennedy/chillpizza
+    remote: github
+    repo-path: chillpizza.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/quinkennedy

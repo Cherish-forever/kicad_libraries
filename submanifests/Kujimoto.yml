@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Kujimoto-fujimoto.pretty
+    path: Kujimoto/fujimoto
+    remote: github
+    repo-path: fujimoto.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Kujimoto

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: tsunderu-nRF51822-modules.pretty
+    path: tsunderu/nRF51822-modules
+    remote: github
+    repo-path: nRF51822-modules.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tsunderu

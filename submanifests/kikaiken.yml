@@ -1,0 +1,25 @@
+manifest:
+  projects:
+  - name: kikaiken-kicad_dip.pretty
+    path: kikaiken/kicad_di
+    remote: github
+    repo-path: kicad_dip.pretty
+    revision: master
+  - name: kikaiken-kicad_smd.pretty
+    path: kikaiken/kicad_smd
+    remote: github
+    repo-path: kicad_smd.pretty
+    revision: master
+  - name: kikaiken-kicad_others.pretty
+    path: kikaiken/kicad_others
+    remote: github
+    repo-path: kicad_others.pretty
+    revision: master
+  - name: kikaiken-kicad_conn.pretty
+    path: kikaiken/kicad_conn
+    remote: github
+    repo-path: kicad_conn.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kikaiken

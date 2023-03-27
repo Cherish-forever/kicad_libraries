@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ruuvi-kicad-library
+    path: ruuvi/kicad-libra
+    remote: github
+    repo-path: kicad-library
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ruuvi

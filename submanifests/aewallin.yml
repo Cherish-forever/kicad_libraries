@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: aewallin-awallinKiCadFootprints.pretty
+    path: aewallin/awallinKiCadFootprints
+    remote: github
+    repo-path: awallinKiCadFootprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aewallin

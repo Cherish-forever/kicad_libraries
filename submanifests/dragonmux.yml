@@ -1,0 +1,115 @@
+manifest:
+  projects:
+  - name: dragonmux-rhais_coilcraft.pretty
+    path: dragonmux/rhais_coilcraf
+    remote: github
+    repo-path: rhais_coilcraft.pretty
+    revision: master
+  - name: dragonmux-rhais_bourns.pretty
+    path: dragonmux/rhais_bourns
+    remote: github
+    repo-path: rhais_bourns.pretty
+    revision: master
+  - name: dragonmux-rhais_package-qfn.pretty
+    path: dragonmux/rhais_package-qfn
+    remote: github
+    repo-path: rhais_package-qfn.pretty
+    revision: master
+  - name: dragonmux-rhais_switch.pretty
+    path: dragonmux/rhais_switch
+    remote: github
+    repo-path: rhais_switch.pretty
+    revision: master
+  - name: dragonmux-rhais_cherry.pretty
+    path: dragonmux/rhais_ch
+    remote: github
+    repo-path: rhais_cherry.pretty
+    revision: master
+  - name: dragonmux-rhais_relay.pretty
+    path: dragonmux/rhais_rela
+    remote: github
+    repo-path: rhais_relay.pretty
+    revision: master
+  - name: dragonmux-rhais_diode.pretty
+    path: dragonmux/rhais_diod
+    remote: github
+    repo-path: rhais_diode.pretty
+    revision: master
+  - name: dragonmux-rhais_package-smd.pretty
+    path: dragonmux/rhais_package-smd
+    remote: github
+    repo-path: rhais_package-smd.pretty
+    revision: master
+  - name: dragonmux-rhais_osc.pretty
+    path: dragonmux/rhais_osc
+    remote: github
+    repo-path: rhais_osc.pretty
+    revision: master
+  - name: dragonmux-rhais_connector-lumberg.pretty
+    path: dragonmux/rhais_connector-lumberg
+    remote: github
+    repo-path: rhais_connector-lumberg.pretty
+    revision: master
+  - name: dragonmux-rhais_usb.pretty
+    path: dragonmux/rhais_usb
+    remote: github
+    repo-path: rhais_usb.pretty
+    revision: master
+  - name: dragonmux-rhais_connector-optical.pretty
+    path: dragonmux/rhais_connector-optical
+    remote: github
+    repo-path: rhais_connector-optical.pretty
+    revision: master
+  - name: dragonmux-rhais_package-vishay.pretty
+    path: dragonmux/rhais_package-visha
+    remote: github
+    repo-path: rhais_package-vishay.pretty
+    revision: master
+  - name: dragonmux-rhais_connector-te.pretty
+    path: dragonmux/rhais_connector-
+    remote: github
+    repo-path: rhais_connector-te.pretty
+    revision: master
+  - name: dragonmux-rhais_diodes_inc.pretty
+    path: dragonmux/rhais_diodes_inc
+    remote: github
+    repo-path: rhais_diodes_inc.pretty
+    revision: master
+  - name: dragonmux-rhais_switch-cherry.pretty
+    path: dragonmux/rhais_switch-ch
+    remote: github
+    repo-path: rhais_switch-cherry.pretty
+    revision: master
+  - name: dragonmux-rhais_connector-jack.pretty
+    path: dragonmux/rhais_connector-jack
+    remote: github
+    repo-path: rhais_connector-jack.pretty
+    revision: master
+  - name: dragonmux-rhais_led.pretty
+    path: dragonmux/rhais_led
+    remote: github
+    repo-path: rhais_led.pretty
+    revision: master
+  - name: dragonmux-rhais_package-to.pretty
+    path: dragonmux/rhais_package-to
+    remote: github
+    repo-path: rhais_package-to.pretty
+    revision: master
+  - name: dragonmux-rhais_button-smd.pretty
+    path: dragonmux/rhais_button-smd
+    remote: github
+    repo-path: rhais_button-smd.pretty
+    revision: master
+  - name: dragonmux-rhais_connector-multicomp.pretty
+    path: dragonmux/rhais_connector-multicom
+    remote: github
+    repo-path: rhais_connector-multicomp.pretty
+    revision: master
+  - name: dragonmux-rhais_rcl.pretty
+    path: dragonmux/rhais_rcl
+    remote: github
+    repo-path: rhais_rcl.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/dragonmux

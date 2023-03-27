@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rigidus-kicad_my_library.pretty
+    path: rigidus/kicad_my_libra
+    remote: github
+    repo-path: kicad_my_library.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rigidus

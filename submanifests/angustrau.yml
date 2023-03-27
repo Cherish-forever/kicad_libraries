@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: angustrau-MHS_Robotics.pretty
+    path: angustrau/MHS_Robotics
+    remote: github
+    repo-path: MHS_Robotics.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/angustrau

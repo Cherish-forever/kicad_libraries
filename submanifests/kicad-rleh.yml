@@ -1,0 +1,70 @@
+manifest:
+  projects:
+  - name: kicad-rleh-resistor-power-shunt.pretty
+    path: kicad-rleh/resistor-power-shun
+    remote: github
+    repo-path: resistor-power-shunt.pretty
+    revision: master
+  - name: kicad-rleh-rleh-oscillators.pretty
+    path: kicad-rleh/rleh-oscillators
+    remote: github
+    repo-path: rleh-oscillators.pretty
+    revision: master
+  - name: kicad-rleh-TI_TO-PMOD.pretty
+    path: kicad-rleh/TI_TO-PMOD
+    remote: github
+    repo-path: TI_TO-PMOD.pretty
+    revision: master
+  - name: kicad-rleh-USB_Mikro_SMD_China.pretty
+    path: kicad-rleh/USB_Mikro_SMD_China
+    remote: github
+    repo-path: USB_Mikro_SMD_China.pretty
+    revision: master
+  - name: kicad-rleh-Housings_VQFN.pretty
+    path: kicad-rleh/Housings_VQFN
+    remote: github
+    repo-path: Housings_VQFN.pretty
+    revision: master
+  - name: kicad-rleh-D-Sub-HD.pretty
+    path: kicad-rleh/D-Sub-HD
+    remote: github
+    repo-path: D-Sub-HD.pretty
+    revision: master
+  - name: kicad-rleh-L_Coilcraft.pretty
+    path: kicad-rleh/L_Coilcraf
+    remote: github
+    repo-path: L_Coilcraft.pretty
+    revision: master
+  - name: kicad-rleh-D-Sub.pretty
+    path: kicad-rleh/D-Sub
+    remote: github
+    repo-path: D-Sub.pretty
+    revision: master
+  - name: kicad-rleh-WE-SLx.pretty
+    path: kicad-rleh/WE-SLx
+    remote: github
+    repo-path: WE-SLx.pretty
+    revision: master
+  - name: kicad-rleh-LW_G6SP.pretty
+    path: kicad-rleh/LW_G6SP
+    remote: github
+    repo-path: LW_G6SP.pretty
+    revision: master
+  - name: kicad-rleh-Measurement_Point_Round-SMD-Pad_Smaller.pretty
+    path: kicad-rleh/Measurement_Point_Round-SMD-Pad_Small
+    remote: github
+    repo-path: Measurement_Point_Round-SMD-Pad_Smaller.pretty
+    revision: master
+  - name: kicad-rleh-DFN-12-2EP_3.3x5mm_Pitch0.65mm.pretty
+    path: kicad-rleh/DFN-12-2EP_3.3x5mm_Pitch0.65mm
+    remote: github
+    repo-path: DFN-12-2EP_3.3x5mm_Pitch0.65mm.pretty
+    revision: master
+  - name: kicad-rleh-WCSP-8_1.6x1.6mm_P0.5mm.pretty
+    path: kicad-rleh/WCSP-8_1.6x1.6mm_P0.5mm
+    remote: github
+    repo-path: WCSP-8_1.6x1.6mm_P0.5mm.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kicad-rleh

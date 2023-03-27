@@ -1,0 +1,40 @@
+manifest:
+  projects:
+  - name: ojousima-logos.pretty
+    path: ojousima/logos
+    remote: github
+    repo-path: logos.pretty
+    revision: master
+  - name: ojousima-Terminal_blocks.pretty
+    path: ojousima/Terminal_blocks
+    remote: github
+    repo-path: Terminal_blocks.pretty
+    revision: master
+  - name: ojousima-Test_points.pretty
+    path: ojousima/Test_points
+    remote: github
+    repo-path: Test_points.pretty
+    revision: master
+  - name: ojousima-SMD_Packages.pretty
+    path: ojousima/SMD_Packages
+    remote: github
+    repo-path: SMD_Packages.pretty
+    revision: master
+  - name: ojousima-SMD_Diodes.pretty
+    path: ojousima/SMD_Diodes
+    remote: github
+    repo-path: SMD_Diodes.pretty
+    revision: master
+  - name: ojousima-SMD_Passives.pretty
+    path: ojousima/SMD_Passives
+    remote: github
+    repo-path: SMD_Passives.pretty
+    revision: master
+  - name: ojousima-Switches_buttons.pretty
+    path: ojousima/Switches_buttons
+    remote: github
+    repo-path: Switches_buttons.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ojousima

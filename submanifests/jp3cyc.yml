@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jp3cyc-KiCadLibrary
+    path: jp3cyc/KiCadLibra
+    remote: github
+    repo-path: KiCadLibrary
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jp3cyc

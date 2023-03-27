@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: LacieUnlam-Poncho_Modelos.pretty
+    path: LacieUnlam/Poncho_Modelos
+    remote: github
+    repo-path: Poncho_Modelos.pretty
+    revision: master
+  - name: LacieUnlam-Poncho_Esqueleto.pretty
+    path: LacieUnlam/Poncho_Esqueleto
+    remote: github
+    repo-path: Poncho_Esqueleto.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/LacieUnlam

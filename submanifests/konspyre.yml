@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: konspyre-kicad-footprints
+    path: konspyre/kicad-footprints
+    remote: github
+    repo-path: kicad-footprints
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/konspyre

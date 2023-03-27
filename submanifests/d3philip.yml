@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: d3philip-kicadprints.pretty
+    path: d3philip/kicadprints
+    remote: github
+    repo-path: kicadprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/d3philip

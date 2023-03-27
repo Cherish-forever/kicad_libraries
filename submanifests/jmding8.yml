@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jmding8-keebee.pretty
+    path: jmding8/keeb
+    remote: github
+    repo-path: keebee.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jmding8

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: septillion-git-septillion_device.pretty
+    path: septillion-git/septillion_devic
+    remote: github
+    repo-path: septillion_device.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/septillion-git

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: sherifeid-RoboLib.pretty
+    path: sherifeid/RoboLib
+    remote: github
+    repo-path: RoboLib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/sherifeid

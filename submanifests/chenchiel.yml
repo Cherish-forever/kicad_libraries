@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: chenchiel-BGA.pretty
+    path: chenchiel/BGA
+    remote: github
+    repo-path: BGA.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/chenchiel

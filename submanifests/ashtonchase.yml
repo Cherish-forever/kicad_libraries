@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ashtonchase-Battery_Holders.pretty
+    path: ashtonchase/Battery_Holders
+    remote: github
+    repo-path: Battery_Holders.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ashtonchase

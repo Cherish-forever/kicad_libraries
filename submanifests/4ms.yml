@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: 4ms-4ms-kicad-lib
+    path: 4ms/4ms-kicad-lib
+    remote: github
+    repo-path: 4ms-kicad-lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/4ms

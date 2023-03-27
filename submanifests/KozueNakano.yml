@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: KozueNakano-KiCADKozueLib.pretty
+    path: KozueNakano/KiCADKozueLib
+    remote: github
+    repo-path: KiCADKozueLib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/KozueNakano

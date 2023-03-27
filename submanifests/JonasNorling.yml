@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: JonasNorling-Footprints.pretty
+    path: JonasNorling/Footprints
+    remote: github
+    repo-path: Footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/JonasNorling

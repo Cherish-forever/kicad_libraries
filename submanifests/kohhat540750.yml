@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kohhat540750-kohhatsKicadFootPrint.pretty
+    path: kohhat540750/kohhatsKicadFootPrin
+    remote: github
+    repo-path: kohhatsKicadFootPrint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kohhat540750

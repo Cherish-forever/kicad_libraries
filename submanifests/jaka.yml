@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jaka-connectors.pretty
+    path: jaka/connectors
+    remote: github
+    repo-path: connectors.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jaka

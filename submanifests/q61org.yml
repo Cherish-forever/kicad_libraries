@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: q61org-kicad_nixie.pretty
+    path: q61org/kicad_nixi
+    remote: github
+    repo-path: kicad_nixie.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/q61org

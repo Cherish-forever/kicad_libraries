@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: greatscottgadgets-gsg-kicad-lib
+    path: greatscottgadgets/gsg-kicad-lib
+    remote: github
+    repo-path: gsg-kicad-lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/greatscottgadgets

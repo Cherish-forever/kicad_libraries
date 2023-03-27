@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cosmikwolf-Zetaohm.pretty
+    path: cosmikwolf/Zetaohm
+    remote: github
+    repo-path: Zetaohm.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cosmikwolf

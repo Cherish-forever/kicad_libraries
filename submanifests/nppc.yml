@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nppc-KiCadCustomLibs
+    path: nppc/KiCadCustomLibs
+    remote: github
+    repo-path: KiCadCustomLibs
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nppc

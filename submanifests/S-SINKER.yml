@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: S-SINKER-KiCad_Footprint.pretty
+    path: S-SINKER/KiCad_Footprin
+    remote: github
+    repo-path: KiCad_Footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/S-SINKER

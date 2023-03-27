@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: tamu21131-mymod.pretty
+    path: tamu21131/mymod
+    remote: github
+    repo-path: mymod.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tamu21131

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: TahuTech-tahutech.pretty
+    path: TahuTech/tahutech
+    remote: github
+    repo-path: tahutech.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/TahuTech

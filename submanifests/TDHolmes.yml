@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: TDHolmes-KiCadCustomFootprints
+    path: TDHolmes/KiCadCustomFootprints
+    remote: github
+    repo-path: KiCadCustomFootprints
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/TDHolmes

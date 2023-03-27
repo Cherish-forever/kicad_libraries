@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: barafael-sdp8xx.pretty
+    path: barafael/sdp8xx
+    remote: github
+    repo-path: sdp8xx.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/barafael

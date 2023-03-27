@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ChristianLerche-LercheTech_KiCAD
+    path: ChristianLerche/LercheTech_KiCAD
+    remote: github
+    repo-path: LercheTech_KiCAD
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ChristianLerche

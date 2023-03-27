@@ -1,0 +1,20 @@
+manifest:
+  projects:
+  - name: toka-eisos-Transformers_WurthElektronik.3dshapes
+    path: toka-eisos/Transformers_WurthElektronik.3dshapes
+    repo-path: Transformers_WurthElektronik.3dshapes
+    remote: github
+    revision: master
+  - name: toka-eisos-Transformers_WurthElektronik.pretty
+    path: toka-eisos/Transformers_WurthElektronik.pretty
+    repo-path: Transformers_WurthElektronik.pretty
+    remote: github
+    revision: master
+  - name: toka-eisos-Transformers_WurthElektronik-symbols
+    path: toka-eisos/Transformers_WurthElektronik-symbols
+    repo-path: Transformers_WurthElektronik-symbols
+    remote: github
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/toka-eisos

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: JEON-KS-Kicad_Footprint.pretty
+    path: JEON-KS/Kicad_Footprin
+    remote: github
+    repo-path: Kicad_Footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/JEON-KS

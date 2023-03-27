@@ -71,7 +71,8 @@ class GitModule(WestCommand):
                 if remote not in contex['manifest']['remotes']:
                     contex['manifest']['remotes'].append(remote)
                 obj['remote'] = p.netloc.split('.')[0]
-                obj['name'] = p.path.split('/')[2].rstrip(".git")
+                obj['name'] = key + '-' + p.path.split('/')[2].rstrip(".git")
+                obj['repo-path'] = p.path.split('/')[2].rstrip(".git")
                 obj['revision'] = 'master'
                 obj['path'] = p.path.lstrip('/').rstrip("/").rstrip(".git").rstrip(".pretty")
                 if obj not in contex['manifest']['projects']:

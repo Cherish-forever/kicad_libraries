@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: wykys-kicad
+    path: wykys/kicad
+    remote: github
+    repo-path: kicad
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/wykys

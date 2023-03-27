@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: marf41-railtec.pretty
+    path: marf41/railtec
+    remote: github
+    repo-path: railtec.pretty
+    revision: master
+  - name: marf41-MF-conn.pretty
+    path: marf41/MF-conn
+    remote: github
+    repo-path: MF-conn.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/marf41

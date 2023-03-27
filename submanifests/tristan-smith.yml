@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: tristan-smith-HA_KicadLibraries
+    path: tristan-smith/HA_KicadLibraries
+    remote: github
+    repo-path: HA_KicadLibraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tristan-smith

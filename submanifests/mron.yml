@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mron-kicad_footprints.pretty
+    path: mron/kicad_footprints
+    remote: github
+    repo-path: kicad_footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mron

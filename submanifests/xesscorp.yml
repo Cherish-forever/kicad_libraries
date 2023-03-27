@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: xesscorp-xess.pretty
+    path: xesscorp/xess
+    remote: github
+    repo-path: xess.pretty
+    revision: master
+  - name: xesscorp-RPi_Hat.pretty
+    path: xesscorp/RPi_Ha
+    remote: github
+    repo-path: RPi_Hat.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/xesscorp

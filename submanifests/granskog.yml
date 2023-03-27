@@ -1,0 +1,30 @@
+manifest:
+  projects:
+  - name: granskog-DGS_Connectors.pretty
+    path: granskog/DGS_Connectors
+    remote: github
+    repo-path: DGS_Connectors.pretty
+    revision: master
+  - name: granskog-DGS_Modules.pretty
+    path: granskog/DGS_Modules
+    remote: github
+    repo-path: DGS_Modules.pretty
+    revision: master
+  - name: granskog-DGS_Devices.pretty
+    path: granskog/DGS_Devices
+    remote: github
+    repo-path: DGS_Devices.pretty
+    revision: master
+  - name: granskog-DGS_Symbols.pretty
+    path: granskog/DGS_Symbols
+    remote: github
+    repo-path: DGS_Symbols.pretty
+    revision: master
+  - name: granskog-DGS_Switches.pretty
+    path: granskog/DGS_Switches
+    remote: github
+    repo-path: DGS_Switches.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/granskog

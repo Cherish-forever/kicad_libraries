@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: AlasEyrd-nec.pretty
+    path: AlasEyrd/nec
+    remote: github
+    repo-path: nec.pretty
+    revision: master
+  - name: AlasEyrd-hitek725.pretty
+    path: AlasEyrd/hitek725
+    remote: github
+    repo-path: hitek725.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/AlasEyrd

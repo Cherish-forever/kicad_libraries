@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: macmade-XS.pretty
+    path: macmade/XS
+    remote: github
+    repo-path: XS.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/macmade

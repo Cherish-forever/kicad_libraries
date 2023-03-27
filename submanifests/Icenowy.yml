@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Icenowy-KiCad_Ingress_Biocard.pretty
+    path: Icenowy/KiCad_Ingress_Biocard
+    remote: github
+    repo-path: KiCad_Ingress_Biocard.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Icenowy

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jerome-labidurie-d1_mini_kicad
+    path: jerome-labidurie/d1_mini_kicad
+    remote: github
+    repo-path: d1_mini_kicad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jerome-labidurie

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: bsakatu-kicad_parts_bsakatu.pretty
+    path: bsakatu/kicad_parts_bsakatu
+    remote: github
+    repo-path: kicad_parts_bsakatu.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/bsakatu

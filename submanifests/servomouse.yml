@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: servomouse-servomouse.pretty
+    path: servomouse/servomous
+    remote: github
+    repo-path: servomouse.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/servomouse

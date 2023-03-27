@@ -1,96 +1,110 @@
 manifest:
-  defaults:
-    remote: origin
-
-  remotes:
-    - name: origin
-      url-base: https://github.com/StefanHamminga
-
   projects:
-    - name: SH_Antennas.pretty
-      revision: master
-      path: StefanHamminga/SH_Antennas
-      groups:
-        - footprint
-    - name: SH_Audio.pretty
-      revision: master
-      path: StefanHamminga/SH_Audio
-      groups:
-        - footprint
-    - name: SH_Batteries.pretty
-      revision: master
-      path: StefanHamminga/SH_Batteries
-      groups:
-        - footprint
-    - name: SH_BGA.pretty
-      revision: master
-      path: StefanHamminga/SH_BGA
-      groups:
-        - footprint
-    - name: SH_Capacitors.pretty
-      revision: master
-      path: StefanHamminga/SH_Capacitors
-      groups:
-        - footprint
-    - name: SH_Connectors.pretty
-      revision: master
-      path: StefanHamminga/SH_Connectors
-      groups:
-        - footprint
-    - name: SH_Crystals_Oscillators.pretty
-      revision: master
-      path: StefanHamminga/SH_Crystals_Oscillators
-      groups:
-        - footprint
-    - name: SH_Diodes.pretty
-      revision: master
-      path: StefanHamminga/SH_Diodes
-      groups:
-        - footprint
-    - name: SH_Filters.pretty
-      revision: master
-      path: StefanHamminga/SH_Filters
-      groups:
-        - footprint
-    - name: SH_IC_Custom.pretty
-      revision: master
-      path: StefanHamminga/SH_IC_Custom
-      groups:
-        - footprint
-    - name: SH_Inductors.pretty
-      revision: master
-      path: StefanHamminga/SH_Inductors
-      groups:
-        - footprint
-    - name: SH_Jumper_Pins.pretty
-      revision: master
-      path: StefanHamminga/SH_Jumper_Pins
-      groups:
-        - footprint
-    - name: SH_Mechanical.pretty
-      revision: master
-      path: StefanHamminga/SH_Mechanical
-      groups:
-        - footprint
-    - name: SH_Modules.pretty
-      revision: master
-      path: StefanHamminga/SH_Modules
-      groups:
-        - footprint
-    - name: SH_QFN_QFP.pretty
-      revision: master
-      path: StefanHamminga/SH_QFN_QFP
-      groups:
-        - footprint
-    - name: StefanHamminga-kicad-footprints
-      revision: master
-      path: StefanHamminga/kicad-footprints
-      repo-path: kicad-footprints
-      groups:
-        - footprint
-    - name: StefanHamminga-kicad-packages3D
-      revision: master
-      path: StefanHamminga/kicad-packages3D
-      repo-path: kicad-packages3D
-      groups:
-        - footprint
+  - name: StefanHamminga-SH_Antennas.pretty
+    path: StefanHamminga/SH_Antennas
+    remote: github
+    repo-path: SH_Antennas.pretty
+    revision: master
+  - name: StefanHamminga-SH_Audio.pretty
+    path: StefanHamminga/SH_Audio
+    remote: github
+    repo-path: SH_Audio.pretty
+    revision: master
+  - name: StefanHamminga-SH_Batteries.pretty
+    path: StefanHamminga/SH_Batteries
+    remote: github
+    repo-path: SH_Batteries.pretty
+    revision: master
+  - name: StefanHamminga-SH_BGA.pretty
+    path: StefanHamminga/SH_BGA
+    remote: github
+    repo-path: SH_BGA.pretty
+    revision: master
+  - name: StefanHamminga-SH_Capacitors.pretty
+    path: StefanHamminga/SH_Capacitors
+    remote: github
+    repo-path: SH_Capacitors.pretty
+    revision: master
+  - name: StefanHamminga-SH_Connectors.pretty
+    path: StefanHamminga/SH_Connectors
+    remote: github
+    repo-path: SH_Connectors.pretty
+    revision: master
+  - name: StefanHamminga-SH_Crystals_Oscillators.pretty
+    path: StefanHamminga/SH_Crystals_Oscillators
+    remote: github
+    repo-path: SH_Crystals_Oscillators.pretty
+    revision: master
+  - name: StefanHamminga-SH_Diodes.pretty
+    path: StefanHamminga/SH_Diodes
+    remote: github
+    repo-path: SH_Diodes.pretty
+    revision: master
+  - name: StefanHamminga-SH_Filters.pretty
+    path: StefanHamminga/SH_Filters
+    remote: github
+    repo-path: SH_Filters.pretty
+    revision: master
+  - name: StefanHamminga-SH_IC_Custom.pretty
+    path: StefanHamminga/SH_IC_Custom
+    remote: github
+    repo-path: SH_IC_Custom.pretty
+    revision: master
+  - name: StefanHamminga-SH_Inductors.pretty
+    path: StefanHamminga/SH_Inductors
+    remote: github
+    repo-path: SH_Inductors.pretty
+    revision: master
+  - name: StefanHamminga-SH_Jumper_Pins.pretty
+    path: StefanHamminga/SH_Jumper_Pins
+    remote: github
+    repo-path: SH_Jumper_Pins.pretty
+    revision: master
+  - name: StefanHamminga-SH_Mechanical.pretty
+    path: StefanHamminga/SH_Mechanical
+    remote: github
+    repo-path: SH_Mechanical.pretty
+    revision: master
+  - name: StefanHamminga-SH_Modules.pretty
+    path: StefanHamminga/SH_Modules
+    remote: github
+    repo-path: SH_Modules.pretty
+    revision: master
+  - name: StefanHamminga-SH_QFN_QFP.pretty
+    path: StefanHamminga/SH_QFN_QFP
+    remote: github
+    repo-path: SH_QFN_QFP.pretty
+    revision: master
+  - name: StefanHamminga-SH_SOD_SON_SOT.pretty
+    path: StefanHamminga/SH_SOD_SON_SOT
+    remote: github
+    repo-path: SH_SOD_SON_SOT.pretty
+    revision: master
+  - name: StefanHamminga-SH_Solder_Pads.pretty
+    path: StefanHamminga/SH_Solder_Pads
+    remote: github
+    repo-path: SH_Solder_Pads.pretty
+    revision: master
+  - name: StefanHamminga-SH_Switches_Buttons.pretty
+    path: StefanHamminga/SH_Switches_Buttons
+    remote: github
+    repo-path: SH_Switches_Buttons.pretty
+    revision: master
+  - name: StefanHamminga-SH_Resistors.pretty
+    path: StefanHamminga/SH_Resistors
+    remote: github
+    repo-path: SH_Resistors.pretty
+    revision: master
+  - name: StefanHamminga-SH_Test_Points_Fiducials.pretty
+    path: StefanHamminga/SH_Test_Points_Fiducials
+    remote: github
+    repo-path: SH_Test_Points_Fiducials.pretty
+    revision: master
+  - name: StefanHamminga-SH_Shielding_Protection.pretty
+    path: StefanHamminga/SH_Shielding_Protection
+    remote: github
+    repo-path: SH_Shielding_Protection.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/StefanHamminga

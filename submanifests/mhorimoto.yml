@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mhorimoto-HOLLY.pretty
+    path: mhorimoto/HOLLY
+    remote: github
+    repo-path: HOLLY.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mhorimoto

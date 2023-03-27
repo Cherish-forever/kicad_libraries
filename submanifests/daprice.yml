@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: daprice-keyswitches.pretty
+    path: daprice/keyswitches
+    remote: github
+    repo-path: keyswitches.pretty
+    revision: master
+  - name: daprice-keyboard_accessories.pretty
+    path: daprice/keyboard_accessories
+    remote: github
+    repo-path: keyboard_accessories.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/daprice

@@ -1,0 +1,20 @@
+manifest:
+  projects:
+  - name: Alasofia-hitek725.pretty
+    path: Alasofia/hitek725
+    remote: github
+    repo-path: hitek725.pretty
+    revision: master
+  - name: Alasofia-nec.pretty
+    path: Alasofia/nec
+    remote: github
+    repo-path: nec.pretty
+    revision: master
+  - name: Alasofia-MXMountLP.pretty
+    path: Alasofia/MXMountLP
+    remote: github
+    repo-path: MXMountLP.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Alasofia

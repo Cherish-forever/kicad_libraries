@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: bveenema-USB.pretty
+    path: bveenema/USB
+    remote: github
+    repo-path: USB.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/bveenema

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: m-byte-aesora.pretty
+    path: m-byte/aesora
+    remote: github
+    repo-path: aesora.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/m-byte

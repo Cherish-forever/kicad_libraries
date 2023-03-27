@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: recursinging-kxmx
+    path: recursinging/kxmx
+    remote: github
+    repo-path: kxmx
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/recursinging

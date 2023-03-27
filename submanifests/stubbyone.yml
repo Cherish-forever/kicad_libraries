@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: stubbyone-kicad-footprints.pretty
+    path: stubbyone/kicad-footprints
+    remote: github
+    repo-path: kicad-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/stubbyone
