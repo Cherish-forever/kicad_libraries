@@ -1,0 +1,65 @@
+manifest:
+  projects:
+  - name: AcheronProject-acheron_Hardware.pretty
+    path: AcheronProject/acheron_Hardwa
+    remote: github
+    repo-path: acheron_Hardware.pretty
+    revision: master
+  - name: AcheronProject-acheron_MX.pretty
+    path: AcheronProject/acheron_MX
+    remote: github
+    repo-path: acheron_MX.pretty
+    revision: master
+  - name: AcheronProject-acheron_MountingHoles.pretty
+    path: AcheronProject/acheron_MountingHoles
+    remote: github
+    repo-path: acheron_MountingHoles.pretty
+    revision: master
+  - name: AcheronProject-acheron_Connectors.pretty
+    path: AcheronProject/acheron_Connectors
+    remote: github
+    repo-path: acheron_Connectors.pretty
+    revision: master
+  - name: AcheronProject-acheron_Logos.pretty
+    path: AcheronProject/acheron_Logos
+    remote: github
+    repo-path: acheron_Logos.pretty
+    revision: main
+  - name: AcheronProject-acheron_EC.pretty
+    path: AcheronProject/acheron_EC
+    remote: github
+    repo-path: acheron_EC.pretty
+    revision: master
+  - name: AcheronProject-acheron_MXH_metalrings.pretty
+    path: AcheronProject/acheron_MXH_metalrings
+    remote: github
+    repo-path: acheron_MXH_metalrings.pretty
+    revision: master
+  - name: AcheronProject-acheron_Graphics.pretty
+    path: AcheronProject/acheron_Graphics
+    remote: github
+    repo-path: acheron_Graphics.pretty
+    revision: master
+  - name: AcheronProject-acheron_MXH.pretty
+    path: AcheronProject/acheron_MXH
+    remote: github
+    repo-path: acheron_MXH.pretty
+    revision: master
+  - name: AcheronProject-acheron_MXO.pretty
+    path: AcheronProject/acheron_MXO
+    remote: github
+    repo-path: acheron_MXO.pretty
+    revision: main
+  - name: AcheronProject-acheron_Components.pretty
+    path: AcheronProject/acheron_Components
+    remote: github
+    repo-path: acheron_Components.pretty
+    revision: master
+  - name: AcheronProject-acheron_MX_PlateSlots.pretty
+    path: AcheronProject/acheron_MX_PlateSlots
+    remote: github
+    repo-path: acheron_MX_PlateSlots.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/AcheronProject

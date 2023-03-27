@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: blackb3ar-kicadprints.pretty
+    path: blackb3ar/kicadprints
+    remote: github
+    repo-path: kicadprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/blackb3ar

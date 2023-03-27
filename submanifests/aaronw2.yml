@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: aaronw2-Torex_Semi.pretty
+    path: aaronw2/Torex_Semi
+    remote: github
+    repo-path: Torex_Semi.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aaronw2

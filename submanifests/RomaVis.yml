@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: RomaVis-connect-minifit.pretty
+    path: RomaVis/connect-minifi
+    remote: github
+    repo-path: connect-minifit.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/RomaVis

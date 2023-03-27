@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jakobkg-footprints.pretty
+    path: jakobkg/footprints
+    remote: github
+    repo-path: footprints.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/jakobkg

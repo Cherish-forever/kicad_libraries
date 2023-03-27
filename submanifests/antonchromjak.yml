@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: antonchromjak-kicad_subory.pretty
+    path: antonchromjak/kicad_subo
+    remote: github
+    repo-path: kicad_subory.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/antonchromjak

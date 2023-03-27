@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: candykingdom-homebrew.pretty
+    path: candykingdom/homebrew
+    remote: github
+    repo-path: homebrew.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/candykingdom

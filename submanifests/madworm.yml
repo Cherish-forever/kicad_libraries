@@ -1,0 +1,95 @@
+manifest:
+  projects:
+  - name: madworm-WS2812B.pretty
+    path: madworm/WS2812B
+    remote: github
+    repo-path: WS2812B.pretty
+    revision: master
+  - name: madworm-Panelization.pretty
+    path: madworm/Panelization
+    remote: github
+    repo-path: Panelization.pretty
+    revision: master
+  - name: madworm-KiCad-Footprints.pretty
+    path: madworm/KiCad-Footprints
+    remote: github
+    repo-path: KiCad-Footprints.pretty
+    revision: master
+  - name: madworm-Potentiometers.pretty
+    path: madworm/Potentiometers
+    remote: github
+    repo-path: Potentiometers.pretty
+    revision: master
+  - name: madworm-Switches.pretty
+    path: madworm/Switches
+    remote: github
+    repo-path: Switches.pretty
+    revision: master
+  - name: madworm-Resonators.pretty
+    path: madworm/Resonators
+    remote: github
+    repo-path: Resonators.pretty
+    revision: master
+  - name: madworm-Heatsinks.pretty
+    path: madworm/Heatsinks
+    remote: github
+    repo-path: Heatsinks.pretty
+    revision: master
+  - name: madworm-Capacitors.pretty
+    path: madworm/Capacitors
+    remote: github
+    repo-path: Capacitors.pretty
+    revision: master
+  - name: madworm-Bluetooth.pretty
+    path: madworm/Bluetooth
+    remote: github
+    repo-path: Bluetooth.pretty
+    revision: master
+  - name: madworm-SIL-Headers.pretty
+    path: madworm/SIL-Headers
+    remote: github
+    repo-path: SIL-Headers.pretty
+    revision: master
+  - name: madworm-DIL-Headers.pretty
+    path: madworm/DIL-Headers
+    remote: github
+    repo-path: DIL-Headers.pretty
+    revision: master
+  - name: madworm-WiFi.pretty
+    path: madworm/WiFi
+    remote: github
+    repo-path: WiFi.pretty
+    revision: master
+  - name: madworm-micro-MaTch.pretty
+    path: madworm/micro-MaTch
+    remote: github
+    repo-path: micro-MaTch.pretty
+    revision: master
+  - name: madworm-Rotary-Encoders.pretty
+    path: madworm/Rotary-Encoders
+    remote: github
+    repo-path: Rotary-Encoders.pretty
+    revision: master
+  - name: madworm-Fuses-polyswitch.pretty
+    path: madworm/Fuses-polyswitch
+    remote: github
+    repo-path: Fuses-polyswitch.pretty
+    revision: master
+  - name: madworm-DC-DC-modules.pretty
+    path: madworm/DC-DC-modules
+    remote: github
+    repo-path: DC-DC-modules.pretty
+    revision: master
+  - name: madworm-RC-Battery-Connectors.pretty
+    path: madworm/RC-Battery-Connectors
+    remote: github
+    repo-path: RC-Battery-Connectors.pretty
+    revision: master
+  - name: madworm-Nichia-LEDs.pretty
+    path: madworm/Nichia-LEDs
+    remote: github
+    repo-path: Nichia-LEDs.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/madworm

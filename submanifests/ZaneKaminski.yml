@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ZaneKaminski-primarypoints.pretty
+    path: ZaneKaminski/primarypoints
+    remote: github
+    repo-path: primarypoints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ZaneKaminski

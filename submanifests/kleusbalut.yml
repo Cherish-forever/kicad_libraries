@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kleusbalut-kleus_kicad_library.pretty
+    path: kleusbalut/kleus_kicad_libra
+    remote: github
+    repo-path: kleus_kicad_library.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kleusbalut

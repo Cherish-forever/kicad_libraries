@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: vontrapp-vontrapp.pretty
+    path: vontrapp/vontra
+    remote: github
+    repo-path: vontrapp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/vontrapp

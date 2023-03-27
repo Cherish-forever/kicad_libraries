@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: audrentis-MX_Plate_Footprints.pretty
+    path: audrentis/MX_Plate_Footprints
+    remote: github
+    repo-path: MX_Plate_Footprints.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/audrentis

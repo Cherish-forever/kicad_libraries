@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Wallbraker-Amiga.pretty
+    path: Wallbraker/Amiga
+    remote: github
+    repo-path: Amiga.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Wallbraker

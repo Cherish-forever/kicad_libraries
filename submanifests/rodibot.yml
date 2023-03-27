@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rodibot-RoDI.pretty
+    path: rodibot/RoDI
+    remote: github
+    repo-path: RoDI.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rodibot

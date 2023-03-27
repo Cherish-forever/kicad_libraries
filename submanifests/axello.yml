@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: axello-kicad
+    path: axello/kicad
+    remote: github
+    repo-path: kicad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/axello

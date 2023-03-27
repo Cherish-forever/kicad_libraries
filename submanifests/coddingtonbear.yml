@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: coddingtonbear-coddingtonbear-kicad-lib
+    path: coddingtonbear/coddingtonbear-kicad-lib
+    remote: github
+    repo-path: coddingtonbear-kicad-lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/coddingtonbear

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jdunmire-kicad-ESP8266
+    path: jdunmire/kicad-ESP8266
+    remote: github
+    repo-path: kicad-ESP8266
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jdunmire

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: gutierrezps-gtrzps.pretty
+    path: gutierrezps/gtrzps
+    remote: github
+    repo-path: gtrzps.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/gutierrezps

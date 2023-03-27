@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nickgagnon-Kicad_footprint.pretty
+    path: nickgagnon/Kicad_footprin
+    remote: github
+    repo-path: Kicad_footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nickgagnon

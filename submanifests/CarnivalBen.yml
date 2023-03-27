@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: CarnivalBen-custom-kicadlib.pretty
+    path: CarnivalBen/custom-kicadlib
+    remote: github
+    repo-path: custom-kicadlib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/CarnivalBen

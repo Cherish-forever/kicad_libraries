@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: joem-jwm_kicad_footprints_misc.pretty
+    path: joem/jwm_kicad_footprints_misc
+    remote: github
+    repo-path: jwm_kicad_footprints_misc.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/joem

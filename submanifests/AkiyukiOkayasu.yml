@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: AkiyukiOkayasu-Kicad_Akiyuki_Footprint.pretty
+    path: AkiyukiOkayasu/Kicad_Akiyuki_Footprin
+    remote: github
+    repo-path: Kicad_Akiyuki_Footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/AkiyukiOkayasu

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: 1Bitsy-1bitsy-hardware-lib
+    path: 1Bitsy/1bitsy-hardware-lib
+    remote: github
+    repo-path: 1bitsy-hardware-lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/1Bitsy

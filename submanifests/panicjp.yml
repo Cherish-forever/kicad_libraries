@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: panicjp-KiCad_Mod.pretty
+    path: panicjp/KiCad_Mod
+    remote: github
+    repo-path: KiCad_Mod.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/panicjp

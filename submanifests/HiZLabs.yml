@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: HiZLabs-KiCad_Footprints.pretty
+    path: HiZLabs/KiCad_Footprints
+    remote: github
+    repo-path: KiCad_Footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/HiZLabs

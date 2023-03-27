@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: farizno-KicadFootprints.pretty
+    path: farizno/KicadFootprints
+    remote: github
+    repo-path: KicadFootprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/farizno

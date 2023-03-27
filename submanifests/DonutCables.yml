@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: DonutCables-donutbrary.pretty
+    path: DonutCables/donutbra
+    remote: github
+    repo-path: donutbrary.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/DonutCables

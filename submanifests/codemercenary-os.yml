@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: codemercenary-os-kicad.pretty
+    path: codemercenary-os/kicad
+    remote: github
+    repo-path: kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/codemercenary-os

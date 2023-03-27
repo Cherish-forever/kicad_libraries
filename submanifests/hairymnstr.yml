@@ -1,0 +1,55 @@
+manifest:
+  projects:
+  - name: hairymnstr-Nathan_THT_Conn.pretty
+    path: hairymnstr/Nathan_THT_Conn
+    remote: github
+    repo-path: Nathan_THT_Conn.pretty
+    revision: master
+  - name: hairymnstr-Nathan_SMT_Conn.pretty
+    path: hairymnstr/Nathan_SMT_Conn
+    remote: github
+    repo-path: Nathan_SMT_Conn.pretty
+    revision: master
+  - name: hairymnstr-Nathan_SMT_Passive.pretty
+    path: hairymnstr/Nathan_SMT_Passiv
+    remote: github
+    repo-path: Nathan_SMT_Passive.pretty
+    revision: master
+  - name: hairymnstr-Nathan_SMT_Semis.pretty
+    path: hairymnstr/Nathan_SMT_Semis
+    remote: github
+    repo-path: Nathan_SMT_Semis.pretty
+    revision: master
+  - name: hairymnstr-Nathan_THT_Passive.pretty
+    path: hairymnstr/Nathan_THT_Passiv
+    remote: github
+    repo-path: Nathan_THT_Passive.pretty
+    revision: master
+  - name: hairymnstr-Nathan_Mechanical.pretty
+    path: hairymnstr/Nathan_Mechanical
+    remote: github
+    repo-path: Nathan_Mechanical.pretty
+    revision: master
+  - name: hairymnstr-Nathan_SMD.pretty
+    path: hairymnstr/Nathan_SMD
+    remote: github
+    repo-path: Nathan_SMD.pretty
+    revision: master
+  - name: hairymnstr-Nathan_THT_Other.pretty
+    path: hairymnstr/Nathan_THT_Oth
+    remote: github
+    repo-path: Nathan_THT_Other.pretty
+    revision: master
+  - name: hairymnstr-Nathan_THT.pretty
+    path: hairymnstr/Nathan_THT
+    remote: github
+    repo-path: Nathan_THT.pretty
+    revision: master
+  - name: hairymnstr-Nathan_SMT_Other.pretty
+    path: hairymnstr/Nathan_SMT_Oth
+    remote: github
+    repo-path: Nathan_SMT_Other.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/hairymnstr

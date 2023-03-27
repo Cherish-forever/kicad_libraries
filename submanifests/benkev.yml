@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: benkev-myLib.pretty
+    path: benkev/myLib
+    remote: github
+    repo-path: myLib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/benkev

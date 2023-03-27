@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: F6ITU-Kicad_Modules
+    path: F6ITU/Kicad_Modules
+    remote: github
+    repo-path: Kicad_Modules
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/F6ITU

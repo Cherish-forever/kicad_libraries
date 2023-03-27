@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ViktorKicad-mystuff.pretty
+    path: ViktorKicad/mystuff
+    remote: github
+    repo-path: mystuff.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ViktorKicad

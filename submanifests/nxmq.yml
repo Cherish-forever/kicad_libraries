@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nxmq-animegirlsare.pretty
+    path: nxmq/animegirlsa
+    remote: github
+    repo-path: animegirlsare.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/nxmq

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: LosNarfos-Kicad_Libraries
+    path: LosNarfos/Kicad_Libraries
+    remote: github
+    repo-path: Kicad_Libraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/LosNarfos

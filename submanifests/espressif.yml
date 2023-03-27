@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: espressif-kicad-libraries
+    path: espressif/kicad-libraries
+    remote: github
+    repo-path: kicad-libraries
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/espressif

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Gigahawk-Gigahawk.pretty
+    path: Gigahawk/Gigahawk
+    remote: github
+    repo-path: Gigahawk.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Gigahawk

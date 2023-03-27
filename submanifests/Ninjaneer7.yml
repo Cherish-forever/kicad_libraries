@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Ninjaneer7-KiCADLib.pretty
+    path: Ninjaneer7/KiCADLib
+    remote: github
+    repo-path: KiCADLib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Ninjaneer7

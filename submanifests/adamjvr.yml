@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: adamjvr-ESP32-kiCAD-Footprints
+    path: adamjvr/ESP32-kiCAD-Footprints
+    remote: github
+    repo-path: ESP32-kiCAD-Footprints
+    revision: master
+  - name: adamjvr-KiCAD-OnHand-Lib
+    path: adamjvr/KiCAD-OnHand-Lib
+    remote: github
+    repo-path: KiCAD-OnHand-Lib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/adamjvr

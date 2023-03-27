@@ -1,0 +1,50 @@
+manifest:
+  projects:
+  - name: hoskinstech-bjh-kicad-relays.pretty
+    path: hoskinstech/bjh-kicad-relays
+    remote: github
+    repo-path: bjh-kicad-relays.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-connector-fp.pretty
+    path: hoskinstech/bjh-kicad-connector-f
+    remote: github
+    repo-path: bjh-kicad-connector-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-mountingholes-fp.pretty
+    path: hoskinstech/bjh-kicad-mountingholes-f
+    remote: github
+    repo-path: bjh-kicad-mountingholes-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-logo-fp.pretty
+    path: hoskinstech/bjh-kicad-logo-f
+    remote: github
+    repo-path: bjh-kicad-logo-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-modules-fp.pretty
+    path: hoskinstech/bjh-kicad-modules-f
+    remote: github
+    repo-path: bjh-kicad-modules-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-transistor-fp.pretty
+    path: hoskinstech/bjh-kicad-transistor-f
+    remote: github
+    repo-path: bjh-kicad-transistor-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-rcld-fp.pretty
+    path: hoskinstech/bjh-kicad-rcld-f
+    remote: github
+    repo-path: bjh-kicad-rcld-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-switches-fp.pretty
+    path: hoskinstech/bjh-kicad-switches-f
+    remote: github
+    repo-path: bjh-kicad-switches-fp.pretty
+    revision: master
+  - name: hoskinstech-bjh-kicad-ic-fp.pretty
+    path: hoskinstech/bjh-kicad-ic-f
+    remote: github
+    repo-path: bjh-kicad-ic-fp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/hoskinstech

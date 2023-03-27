@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: dchwebb-Custom_Footprints.pretty
+    path: dchwebb/Custom_Footprints
+    remote: github
+    repo-path: Custom_Footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/dchwebb

@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: mkleinschmidt-Mundorf.pretty
+    path: mkleinschmidt/Mundorf
+    remote: github
+    repo-path: Mundorf.pretty
+    revision: master
+  - name: mkleinschmidt-Connectors_Phoenix.pretty
+    path: mkleinschmidt/Connectors_Phoenix
+    remote: github
+    repo-path: Connectors_Phoenix.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mkleinschmidt

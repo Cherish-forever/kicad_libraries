@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mrmoje-mojes-kicad-footprints.pretty
+    path: mrmoje/mojes-kicad-footprints
+    remote: github
+    repo-path: mojes-kicad-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mrmoje

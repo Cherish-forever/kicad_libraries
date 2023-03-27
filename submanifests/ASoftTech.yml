@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ASoftTech-CAD.KiCad.Libs
+    path: ASoftTech/CAD.KiCad.Libs
+    remote: github
+    repo-path: CAD.KiCad.Libs
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ASoftTech

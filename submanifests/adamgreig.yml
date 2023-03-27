@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: adamgreig-agg-kicad
+    path: adamgreig/agg-kicad
+    remote: github
+    repo-path: agg-kicad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/adamgreig

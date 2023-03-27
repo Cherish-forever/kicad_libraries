@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: PatrickBaus-footprints.pretty
+    path: PatrickBaus/footprints
+    remote: github
+    repo-path: footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/PatrickBaus

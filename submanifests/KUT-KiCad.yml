@@ -1,0 +1,45 @@
+manifest:
+  projects:
+  - name: KUT-KiCad-KUT_uController.pretty
+    path: KUT-KiCad/KUT_uControll
+    remote: github
+    repo-path: KUT_uController.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_Passive.pretty
+    path: KUT-KiCad/KUT_Passiv
+    remote: github
+    repo-path: KUT_Passive.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_Device.pretty
+    path: KUT-KiCad/KUT_Devic
+    remote: github
+    repo-path: KUT_Device.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_Connector.pretty
+    path: KUT-KiCad/KUT_Connecto
+    remote: github
+    repo-path: KUT_Connector.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_Switch.pretty
+    path: KUT-KiCad/KUT_Switch
+    remote: github
+    repo-path: KUT_Switch.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_CommIC.pretty
+    path: KUT-KiCad/KUT_CommIC
+    remote: github
+    repo-path: KUT_CommIC.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_Sensor.pretty
+    path: KUT-KiCad/KUT_Senso
+    remote: github
+    repo-path: KUT_Sensor.pretty
+    revision: master
+  - name: KUT-KiCad-KUT_DriveIC.pretty
+    path: KUT-KiCad/KUT_DriveIC
+    remote: github
+    repo-path: KUT_DriveIC.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/KUT-KiCad

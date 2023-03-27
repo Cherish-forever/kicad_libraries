@@ -1,9 +1,9 @@
 manifest:
   defaults:
-    remote: origin
+    remote: gitlab
 
   remotes:
-    - name: origin
+    - name: gitlab
       url-base: https://gitlab.com/kicad/libraries
 
   projects:

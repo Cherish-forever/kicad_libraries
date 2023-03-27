@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: tmandic-HCBT_Aclass.pretty
+    path: tmandic/HCBT_Aclass
+    remote: github
+    repo-path: HCBT_Aclass.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tmandic

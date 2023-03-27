@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: re-innovation-kicad_reinnovation
+    path: re-innovation/kicad_reinnovation
+    remote: github
+    repo-path: kicad_reinnovation
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/re-innovation

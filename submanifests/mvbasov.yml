@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mvbasov-MVB.pretty
+    path: mvbasov/MVB
+    remote: github
+    repo-path: MVB.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mvbasov

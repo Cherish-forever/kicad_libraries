@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: tylercrumpton-CrumpPrints.pretty
+    path: tylercrumpton/CrumpPrints
+    remote: github
+    repo-path: CrumpPrints.pretty
+    revision: master
+  - name: tylercrumpton-CrumpPrintSymbols.pretty
+    path: tylercrumpton/CrumpPrintSymbols
+    remote: github
+    repo-path: CrumpPrintSymbols.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/tylercrumpton

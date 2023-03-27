@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: peekpt-kicad_smisioto
+    path: peekpt/kicad_smisioto
+    remote: github
+    repo-path: kicad_smisioto
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/peekpt

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mkudlacek-Inductors_Bourns.pretty
+    path: mkudlacek/Inductors_Bourns
+    remote: github
+    repo-path: Inductors_Bourns.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mkudlacek

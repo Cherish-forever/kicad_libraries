@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Tinkerforge-kicad-libraries
+    path: Tinkerforge/kicad-libraries
+    remote: github
+    repo-path: kicad-libraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Tinkerforge

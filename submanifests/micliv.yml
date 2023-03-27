@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: micliv-LivaModules.pretty
+    path: micliv/LivaModules
+    remote: github
+    repo-path: LivaModules.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/micliv

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cpavlina-kicad-pcblib
+    path: cpavlina/kicad-pcblib
+    remote: github
+    repo-path: kicad-pcblib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cpavlina

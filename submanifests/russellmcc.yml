@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: russellmcc-russell_kicad
+    path: russellmcc/russell_kicad
+    remote: github
+    repo-path: russell_kicad
+    revision: master
+  - name: russellmcc-eurorack_kicad
+    path: russellmcc/eurorack_kicad
+    remote: github
+    repo-path: eurorack_kicad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/russellmcc

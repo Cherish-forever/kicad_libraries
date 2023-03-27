@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rudiloos-kilibs.pretty
+    path: rudiloos/kilibs
+    remote: github
+    repo-path: kilibs.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rudiloos

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Seeed-Studio-OPL_Kicad_Library
+    path: Seeed-Studio/OPL_Kicad_Libra
+    remote: github
+    repo-path: OPL_Kicad_Library
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Seeed-Studio

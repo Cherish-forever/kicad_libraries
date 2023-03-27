@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Cylindric3D-KicadComponents.pretty
+    path: Cylindric3D/KicadComponents
+    remote: github
+    repo-path: KicadComponents.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Cylindric3D

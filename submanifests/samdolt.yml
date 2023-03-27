@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: samdolt-kicad-fp.pretty
+    path: samdolt/kicad-f
+    remote: github
+    repo-path: kicad-fp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/samdolt

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: 50an6xy06r6n-keyboard_reversible.pretty
+    path: 50an6xy06r6n/keyboard_reversibl
+    remote: github
+    repo-path: keyboard_reversible.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/50an6xy06r6n

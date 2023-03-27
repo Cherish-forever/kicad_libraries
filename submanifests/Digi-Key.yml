@@ -1,0 +1,13 @@
+manifest:
+  projects:
+  - name: digikey-kicad-library
+    path: digikey/digikey-kicad-libra
+    remote: github
+    revision: master
+  - name: digikey-partner-kicad-library
+    path: digikey/digikey-partner-kicad-libra
+    remote: github
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Digi-Key

@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: nqbit-NQBit.pretty
+    path: nqbit/NQBi
+    remote: github
+    repo-path: NQBit.pretty
+    revision: master
+  - name: nqbit-nqbit.pretty
+    path: nqbit/nqbi
+    remote: github
+    repo-path: nqbit.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nqbit

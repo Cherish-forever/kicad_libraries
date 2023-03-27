@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jnedbal-jakub.pretty
+    path: jnedbal/jakub
+    remote: github
+    repo-path: jakub.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jnedbal

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: chriswags-KiCad
+    path: chriswags/KiCad
+    remote: github
+    repo-path: KiCad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/chriswags

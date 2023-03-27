@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: aylons-safety_pin.pretty
+    path: aylons/safety_pin
+    remote: github
+    repo-path: safety_pin.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aylons

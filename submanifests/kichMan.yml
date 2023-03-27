@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kichMan-JDY-08
+    path: kichMan/JDY-08
+    remote: github
+    repo-path: JDY-08
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kichMan

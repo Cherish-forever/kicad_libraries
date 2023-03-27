@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: altLab-altlab-footprints.pretty
+    path: altLab/altlab-footprints
+    remote: github
+    repo-path: altlab-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/altLab

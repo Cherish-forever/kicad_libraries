@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rocketman768-nu9j-footprints.pretty
+    path: rocketman768/nu9j-footprints
+    remote: github
+    repo-path: nu9j-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rocketman768

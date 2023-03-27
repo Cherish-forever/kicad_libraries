@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: OLIMEX-KiCAD
+    path: OLIMEX/KiCAD
+    remote: github
+    repo-path: KiCAD
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/OLIMEX

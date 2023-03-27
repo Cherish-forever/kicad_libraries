@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: pbrook-Parts.pretty
+    path: pbrook/Parts
+    remote: github
+    repo-path: Parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/pbrook

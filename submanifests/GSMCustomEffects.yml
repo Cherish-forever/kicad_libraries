@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: GSMCustomEffects-Kicad_GSM_Footprint.pretty
+    path: GSMCustomEffects/Kicad_GSM_Footprin
+    remote: github
+    repo-path: Kicad_GSM_Footprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/GSMCustomEffects

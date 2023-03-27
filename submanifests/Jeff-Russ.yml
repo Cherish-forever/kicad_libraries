@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Jeff-Russ-Kicad.pretty
+    path: Jeff-Russ/Kicad
+    remote: github
+    repo-path: Kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Jeff-Russ

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: notmart-eurorack.pretty
+    path: notmart/eurorack
+    remote: github
+    repo-path: eurorack.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/notmart

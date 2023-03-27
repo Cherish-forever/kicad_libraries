@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: sparkfun-SparkFun-KiCad-Libraries
+    path: sparkfun/SparkFun-KiCad-Libraries
+    remote: github
+    repo-path: SparkFun-KiCad-Libraries
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/sparkfun

@@ -1,0 +1,30 @@
+manifest:
+  projects:
+  - name: descampsa-molex.pretty
+    path: descampsa/molex
+    remote: github
+    repo-path: molex.pretty
+    revision: master
+  - name: descampsa-fuse.pretty
+    path: descampsa/fus
+    remote: github
+    repo-path: fuse.pretty
+    revision: master
+  - name: descampsa-CreativeCommon.pretty
+    path: descampsa/CreativeCommon
+    remote: github
+    repo-path: CreativeCommon.pretty
+    revision: master
+  - name: descampsa-arduino.pretty
+    path: descampsa/arduino
+    remote: github
+    repo-path: arduino.pretty
+    revision: master
+  - name: descampsa-LEDs.pretty
+    path: descampsa/LEDs
+    remote: github
+    repo-path: LEDs.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/descampsa

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ANDnXOR-ANDnXOR-Kicad.pretty
+    path: ANDnXOR/ANDnXOR-Kicad
+    remote: github
+    repo-path: ANDnXOR-Kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ANDnXOR

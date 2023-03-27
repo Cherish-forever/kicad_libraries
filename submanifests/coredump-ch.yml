@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: coredump-ch-particle.pretty
+    path: coredump-ch/particl
+    remote: github
+    repo-path: particle.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/coredump-ch

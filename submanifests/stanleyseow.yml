@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: stanleyseow-SVTmaker.pretty
+    path: stanleyseow/SVTmak
+    remote: github
+    repo-path: SVTmaker.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/stanleyseow

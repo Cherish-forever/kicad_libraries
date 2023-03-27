@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: LibreSolar-KiCad-footprints
+    path: LibreSolar/KiCad-footprints
+    remote: github
+    repo-path: KiCad-footprints
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/LibreSolar

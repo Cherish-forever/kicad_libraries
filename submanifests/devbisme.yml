@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: devbisme-RPi_Hat.pretty
+    path: devbisme/RPi_Ha
+    remote: github
+    repo-path: RPi_Hat.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/devbisme

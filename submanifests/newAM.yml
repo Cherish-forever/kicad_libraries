@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: newAM-newam.pretty
+    path: newAM/newam
+    remote: github
+    repo-path: newam.pretty
+    revision: main
+  remotes:
+  - name: github
+    url-base: https://github.com/newAM

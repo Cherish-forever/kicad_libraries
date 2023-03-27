@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: cormoran-kicad.pretty
+    path: cormoran/kicad
+    remote: github
+    repo-path: kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/cormoran

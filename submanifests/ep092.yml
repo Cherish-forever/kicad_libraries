@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ep092-library_toni.pretty
+    path: ep092/library_toni
+    remote: github
+    repo-path: library_toni.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ep092

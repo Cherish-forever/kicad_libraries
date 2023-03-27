@@ -1,0 +1,90 @@
+manifest:
+  projects:
+  - name: PCSmithy-NeoPixel_FP.pretty
+    path: PCSmithy/NeoPixel_FP
+    remote: github
+    repo-path: NeoPixel_FP.pretty
+    revision: master
+  - name: PCSmithy-PCA9685PW_FP.pretty
+    path: PCSmithy/PCA9685PW_FP
+    remote: github
+    repo-path: PCA9685PW_FP.pretty
+    revision: master
+  - name: PCSmithy-VIA_FP.pretty
+    path: PCSmithy/VIA_FP
+    remote: github
+    repo-path: VIA_FP.pretty
+    revision: master
+  - name: PCSmithy-ESP32-footprints-Lib.pretty
+    path: PCSmithy/ESP32-footprints-Lib
+    remote: github
+    repo-path: ESP32-footprints-Lib.pretty
+    revision: master
+  - name: PCSmithy-Capstone_FP.pretty
+    path: PCSmithy/Capstone_FP
+    remote: github
+    repo-path: Capstone_FP.pretty
+    revision: master
+  - name: PCSmithy-CL-SB-12B.pretty
+    path: PCSmithy/CL-SB-12B
+    remote: github
+    repo-path: CL-SB-12B.pretty
+    revision: master
+  - name: PCSmithy-SF_JCA10.pretty
+    path: PCSmithy/SF_JCA10
+    remote: github
+    repo-path: SF_JCA10.pretty
+    revision: master
+  - name: PCSmithy-phoenix_push_term_block.pretty
+    path: PCSmithy/phoenix_push_term_block
+    remote: github
+    repo-path: phoenix_push_term_block.pretty
+    revision: master
+  - name: PCSmithy-DB15_Female_Right_Angle.pretty
+    path: PCSmithy/DB15_Female_Right_Angl
+    remote: github
+    repo-path: DB15_Female_Right_Angle.pretty
+    revision: master
+  - name: PCSmithy-MCX.pretty
+    path: PCSmithy/MCX
+    remote: github
+    repo-path: MCX.pretty
+    revision: master
+  - name: PCSmithy-744272471.pretty
+    path: PCSmithy/744272471
+    remote: github
+    repo-path: 744272471.pretty
+    revision: master
+  - name: PCSmithy-PA4332_222NLT.pretty
+    path: PCSmithy/PA4332_222NLT
+    remote: github
+    repo-path: PA4332_222NLT.pretty
+    revision: master
+  - name: PCSmithy-logos.pretty
+    path: PCSmithy/logos
+    remote: github
+    repo-path: logos.pretty
+    revision: master
+  - name: PCSmithy-custom.pretty
+    path: PCSmithy/custom
+    remote: github
+    repo-path: custom.pretty
+    revision: master
+  - name: PCSmithy-PCB_Banana_Jack.pretty
+    path: PCSmithy/PCB_Banana_Jack
+    remote: github
+    repo-path: PCB_Banana_Jack.pretty
+    revision: master
+  - name: PCSmithy-CAS-D20TA.pretty
+    path: PCSmithy/CAS-D20TA
+    remote: github
+    repo-path: CAS-D20TA.pretty
+    revision: master
+  - name: PCSmithy-S8411-45R.pretty
+    path: PCSmithy/S8411-45R
+    remote: github
+    repo-path: S8411-45R.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/PCSmithy

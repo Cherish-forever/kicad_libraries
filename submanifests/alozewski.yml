@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: alozewski-al-kicad-lib.pretty
+    path: alozewski/al-kicad-lib
+    remote: github
+    repo-path: al-kicad-lib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/alozewski

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: shozaburo-shimada-KiCADfootprint.pretty
+    path: shozaburo-shimada/KiCADfootprin
+    remote: github
+    repo-path: KiCADfootprint.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/shozaburo-shimada

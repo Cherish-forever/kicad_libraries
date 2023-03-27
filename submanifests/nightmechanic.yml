@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: nightmechanic-nightmechanic_pcb.pretty
+    path: nightmechanic/nightmechanic_pcb
+    remote: github
+    repo-path: nightmechanic_pcb.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/nightmechanic

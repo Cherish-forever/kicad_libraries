@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ohporter-beaglebone_cape.pretty
+    path: ohporter/beaglebone_ca
+    remote: github
+    repo-path: beaglebone_cape.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ohporter

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: MechChurch-MechChurch-parts.pretty
+    path: MechChurch/MechChurch-parts
+    remote: github
+    repo-path: MechChurch-parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/MechChurch

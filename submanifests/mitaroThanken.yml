@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: mitaroThanken-Connector_Audio_Mod.pretty
+    path: mitaroThanken/Connector_Audio_Mod
+    remote: github
+    repo-path: Connector_Audio_Mod.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/mitaroThanken

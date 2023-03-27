@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ohdsp-KiCad-Libs
+    path: ohdsp/KiCad-Libs
+    remote: github
+    repo-path: KiCad-Libs
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ohdsp

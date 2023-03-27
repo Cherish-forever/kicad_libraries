@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kicad-harryr-rx-viper.pretty
+    path: kicad-harryr/rx-vi
+    remote: github
+    repo-path: rx-viper.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kicad-harryr

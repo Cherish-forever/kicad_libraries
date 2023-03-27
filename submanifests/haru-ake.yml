@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: haru-ake-millmax-mxalps.pretty
+    path: haru-ake/millmax-mxalps
+    remote: github
+    repo-path: millmax-mxalps.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/haru-ake

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: celeritous-KiCad.pretty
+    path: celeritous/KiCad
+    remote: github
+    repo-path: KiCad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/celeritous

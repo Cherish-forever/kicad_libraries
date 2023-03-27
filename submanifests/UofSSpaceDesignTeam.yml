@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: UofSSpaceDesignTeam-USST-footprints.pretty
+    path: UofSSpaceDesignTeam/USST-footprints
+    remote: github
+    repo-path: USST-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/UofSSpaceDesignTeam

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: esden-pretty-kicad-libs
+    path: esden/pretty-kicad-libs
+    remote: github
+    repo-path: pretty-kicad-libs
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/esden

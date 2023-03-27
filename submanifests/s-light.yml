@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: s-light-CONN_RJ45_MagJack_POEp.pretty
+    path: s-light/CONN_RJ45_MagJack_POE
+    remote: github
+    repo-path: CONN_RJ45_MagJack_POEp.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/s-light

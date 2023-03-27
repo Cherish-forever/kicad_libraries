@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: garrettsworkshop-stdpads.pretty
+    path: garrettsworkshop/stdpads
+    remote: github
+    repo-path: stdpads.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/garrettsworkshop

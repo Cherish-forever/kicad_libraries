@@ -1,0 +1,20 @@
+manifest:
+  projects:
+  - name: wiebus-Power_Packages_SMD.pretty
+    repo-path: Power_Packages_SMD.pretty
+    path: wiebus/Power_Packages_SMD
+    remote: github
+    revision: master
+  - name: wiebus-Housings_TO-12_TO-18_TO-43_TO-42_11Jun2013.pretty
+    repo-path: Housings_TO-12_TO-18_TO-43_TO-42_11Jun2013.pretty
+    path: wiebus/Housings_TO-12_TO-18_TO-43_TO-42_11Jun2013
+    remote: github
+    revision: master
+  - name: wiebus-SOT23_SOT143_SOT143R_TSOT6_MK06A_SC70-6_Housing_14Mar2014.pretty
+    repo-path: SOT23_SOT143_SOT143R_TSOT6_MK06A_SC70-6_Housing_14Mar2014.pretty
+    path: wiebus/SOT23_SOT143_SOT143R_TSOT6_MK06A_SC70-6_Housing_14Mar2014
+    remote: github
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/wiebus

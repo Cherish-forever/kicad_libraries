@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: andresmanelli-TOROID-KiCad.pretty
+    path: andresmanelli/TOROID-KiCad
+    remote: github
+    repo-path: TOROID-KiCad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/andresmanelli

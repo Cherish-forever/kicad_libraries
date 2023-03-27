@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: NorbotNorway-NorBotKiCadFootprints.pretty
+    path: NorbotNorway/NorBotKiCadFootprints
+    remote: github
+    repo-path: NorBotKiCadFootprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/NorbotNorway

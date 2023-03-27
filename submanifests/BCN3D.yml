@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: BCN3D-BCN3D-Kicad-library
+    path: BCN3D/BCN3D-Kicad-libra
+    remote: github
+    repo-path: BCN3D-Kicad-library
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/BCN3D

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: pelrun-libKiCad
+    path: pelrun/libKiCad
+    remote: github
+    repo-path: libKiCad
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/pelrun

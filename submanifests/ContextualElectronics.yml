@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ContextualElectronics-CE_KiCadLib
+    path: ContextualElectronics/CE_KiCadLib
+    remote: github
+    repo-path: CE_KiCadLib
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ContextualElectronics

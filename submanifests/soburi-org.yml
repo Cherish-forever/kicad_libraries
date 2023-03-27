@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: soburi-org-kicad_share_repository.pretty
+    path: soburi-org/kicad_share_reposito
+    remote: github
+    repo-path: kicad_share_repository.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/soburi-org

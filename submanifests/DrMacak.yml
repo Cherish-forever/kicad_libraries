@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: DrMacak-ELI_HW_KiCad.pretty
+    path: DrMacak/ELI_HW_KiCad
+    remote: github
+    repo-path: ELI_HW_KiCad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/DrMacak

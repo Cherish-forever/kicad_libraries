@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: jerkey-kicad-jerry.pretty
+    path: jerkey/kicad-j
+    remote: github
+    repo-path: kicad-jerry.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/jerkey

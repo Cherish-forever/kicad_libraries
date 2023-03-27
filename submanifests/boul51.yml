@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: boul51-boul51.pretty
+    path: boul51/boul51
+    remote: github
+    repo-path: boul51.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/boul51

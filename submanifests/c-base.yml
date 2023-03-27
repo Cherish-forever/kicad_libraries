@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: c-base-kicad-cbase.pretty
+    path: c-base/kicad-cbas
+    remote: github
+    repo-path: kicad-cbase.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/c-base

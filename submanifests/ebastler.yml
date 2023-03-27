@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ebastler-kicad-keyboard-parts.pretty
+    path: ebastler/kicad-keyboard-parts
+    remote: github
+    repo-path: kicad-keyboard-parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ebastler

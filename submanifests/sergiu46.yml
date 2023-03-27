@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: sergiu46-KiCadParts.pretty
+    path: sergiu46/KiCadParts
+    remote: github
+    repo-path: KiCadParts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/sergiu46

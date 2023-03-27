@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: dqmcdonald-DQM_kicad_new.pretty
+    path: dqmcdonald/DQM_kicad_new
+    remote: github
+    repo-path: DQM_kicad_new.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/dqmcdonald

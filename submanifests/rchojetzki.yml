@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rchojetzki-rchojetzki-kicad-footprints-lib.pretty
+    path: rchojetzki/rchojetzki-kicad-footprints-lib
+    remote: github
+    repo-path: rchojetzki-kicad-footprints-lib.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rchojetzki

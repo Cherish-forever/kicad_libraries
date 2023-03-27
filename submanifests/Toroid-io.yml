@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: Toroid-io-toroid-kicad.pretty
+    path: Toroid-io/toroid-kicad
+    remote: github
+    repo-path: toroid-kicad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/Toroid-io

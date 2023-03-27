@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: rascalmicro-rascalmicro-kicad-footprints.pretty
+    path: rascalmicro/rascalmicro-kicad-footprints
+    remote: github
+    repo-path: rascalmicro-kicad-footprints.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/rascalmicro

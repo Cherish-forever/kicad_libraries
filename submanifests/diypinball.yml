@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: diypinball-PinballParts.pretty
+    path: diypinball/PinballParts
+    remote: github
+    repo-path: PinballParts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/diypinball

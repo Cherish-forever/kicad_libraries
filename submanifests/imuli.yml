@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: imuli-Connectors_Anderson.pretty
+    path: imuli/Connectors_Anderson
+    remote: github
+    repo-path: Connectors_Anderson.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/imuli

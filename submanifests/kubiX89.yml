@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: kubiX89-kiCAD.pretty
+    path: kubiX89/kiCAD
+    remote: github
+    repo-path: kiCAD.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/kubiX89

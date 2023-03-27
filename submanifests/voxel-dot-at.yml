@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: voxel-dot-at-voxel_KiCad.pretty
+    path: voxel-dot-at/voxel_KiCad
+    remote: github
+    repo-path: voxel_KiCad.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/voxel-dot-at

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: alchy-spacestudio_components.pretty
+    path: alchy/spacestudio_components
+    remote: github
+    repo-path: spacestudio_components.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/alchy

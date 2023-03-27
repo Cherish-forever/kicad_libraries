@@ -1,0 +1,15 @@
+manifest:
+  projects:
+  - name: MDHSweden-KiCad-MDH-IC.pretty
+    path: MDHSweden/KiCad-MDH-IC
+    remote: github
+    repo-path: KiCad-MDH-IC.pretty
+    revision: master
+  - name: MDHSweden-KiCad-MDH-Connectors.pretty
+    path: MDHSweden/KiCad-MDH-Connectors
+    remote: github
+    repo-path: KiCad-MDH-Connectors.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/MDHSweden

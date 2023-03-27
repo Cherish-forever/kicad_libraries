@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: brunoeagle-kicad-open-modules
+    path: brunoeagle/kicad-open-modules
+    remote: github
+    repo-path: kicad-open-modules
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/brunoeagle

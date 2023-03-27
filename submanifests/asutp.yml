@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: asutp-strygin_TO.pretty
+    path: asutp/strygin_TO
+    remote: github
+    repo-path: strygin_TO.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/asutp

@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: ka2hiro-kagizaraya-parts.pretty
+    path: ka2hiro/kagizaraya-parts
+    remote: github
+    repo-path: kagizaraya-parts.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/ka2hiro

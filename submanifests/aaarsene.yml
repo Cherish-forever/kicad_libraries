@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: aaarsene-MX_19mm.pretty
+    path: aaarsene/MX_19mm
+    remote: github
+    repo-path: MX_19mm.pretty
+    revision: master
+  remotes:
+  - name: github
+    url-base: https://github.com/aaarsene
