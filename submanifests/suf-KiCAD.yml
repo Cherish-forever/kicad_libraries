@@ -1,0 +1,109 @@
+manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: https://github.com/suf-KiCAD
+
+  projects:
+    - name: suf_led.pretty
+      revision: master
+      path: suf-KiCAD/suf_led
+      groups:
+        - footprint
+    - name: suf_transformer.pretty
+      revision: master
+      path: suf-KiCAD/suf_transformer
+      groups:
+        - footprint
+    - name: suf_capacitor.pretty
+      revision: master
+      path: suf-KiCAD/suf_capacitor
+      groups:
+        - footprint
+    - name: suf_connector_misc.pretty
+      revision: master
+      path: suf-KiCAD/suf_connector_misc
+      groups:
+        - footprint
+    - name: suf_connector_ncw.pretty
+      revision: master
+      path: suf-KiCAD/suf_connector_ncw
+      groups:
+        - footprint
+    - name: suf_terminal_block.pretty
+      revision: master
+      path: suf-KiCAD/suf_terminal_block
+      groups:
+        - footprint
+    - name: suf_module.pretty
+      revision: master
+      path: suf-KiCAD/suf_module
+      groups:
+        - footprint
+    - name: suf_led_display.pretty
+      revision: master
+      path: suf-KiCAD/suf_led_display
+      groups:
+        - footprint
+    - name: suf_sot.pretty
+      revision: master
+      path: suf-KiCAD/suf_sot
+      groups:
+        - footprint
+    - name: suf_power_module.pretty
+      revision: master
+      path: suf-KiCAD/suf_power_module
+      groups:
+        - footprint
+    - name: suf_connector_RJ.pretty
+      revision: master
+      path: suf-KiCAD/suf_connector_RJ
+      groups:
+        - footprint
+    - name: suf_housings_TO.pretty
+      revision: master
+      path: suf-KiCAD/suf_housings_TO
+      groups:
+        - footprint
+    - name: suf_relay.pretty
+      revision: master
+      path: suf-KiCAD/suf_relay
+      groups:
+        - footprint
+    - name: suf_dpak.pretty
+      revision: master
+      path: suf-KiCAD/suf_dpak
+      groups:
+        - footprint
+    - name: suf_sob.pretty
+      revision: master
+      path: suf-KiCAD/suf_sob
+      groups:
+        - footprint
+    - name: suf_switch.pretty
+      revision: master
+      path: suf-KiCAD/suf_switch
+      groups:
+        - footprint
+    - name: suf_fuse.pretty
+      revision: master
+      path: suf-KiCAD/suf_fuse
+      groups:
+        - footprint
+    - name: suf_diode_bridge.pretty
+      revision: master
+      path: suf-KiCAD/suf_diode_bridge
+      groups:
+        - footprint
+    - name: suf_connector_usb.pretty
+      revision: master
+      path: suf-KiCAD/suf_connector_usb
+      groups:
+        - footprint
+    - name: suf_choke_smd.pretty
+      revision: master
+      path: suf-KiCAD/suf_choke_smd
+      groups:
+        - footprint
