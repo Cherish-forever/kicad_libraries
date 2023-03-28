@@ -19,3 +19,21 @@ Kicad libraries management tool
 # How to add repository
 
 You can add yourself repository in west.yml, or create yml file in submanifests.
+
+# Update repository
+
+update all repository
+
+`$ west update`
+
+update and rebase all repository
+
+`west update --rebase`
+
+only update kicad/symbols
+
+`west update kicad/symbols`
+
+only update kicad/symbols and rebase
+
+`west update kicad/symbols --rebase`
