@@ -22,3 +22,8 @@ manifest:
       path: kicad/packages3D
       groups:
         - package3d
+    - name: kicad-templates
+      revision: master
+      path: kicad/templates
+      groups:
+        - templates
