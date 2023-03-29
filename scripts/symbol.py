@@ -18,6 +18,8 @@ class Symbol(WestCommand):
                                          help=self.help,
                                          description=self.description)
 
+        parser.add_argument('-k', '--keep', required=False, default=False, type=bool,
+                            help='Keep kicad-official symbols as default search path')
         parser.add_argument('-o', '--output', required=True, help='an optional argument')
 
         return parser           # gets stored as self.parser
@@ -31,7 +33,10 @@ class Symbol(WestCommand):
                 for filename in filenames:
                     if os.path.splitext(filename)[-1] == '.kicad_sym':
                         file_path = os.path.join(dirname, filename).replace('\\', '/')
-                        name = os.path.relpath(file_path, self.topdir).replace('.kicad_sym', '')
+                        if os.path.join(self.topdir, 'kicad', 'symbols') in dirname and args.keep:
+                            name = os.path.relpath(file_path, self.topdir).replace("kicad/symbols/", '').replace('.kicad_sym', '')
+                        else:
+                            name = os.path.relpath(file_path, self.topdir).replace('.kicad_sym', '')
                         lib = '  (lib (name "{}")(type KiCad) (uri "{}") (options "") (descr ""))\n'.format(name, file_path)
                         libs.append(lib)
 

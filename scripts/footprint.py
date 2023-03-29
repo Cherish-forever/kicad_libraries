@@ -18,6 +18,8 @@ class Footprint(WestCommand):
                                          help=self.help,
                                          description=self.description)
 
+        parser.add_argument('-k', '--keep', required=False, default=False, type=bool,
+                            help='Keep kicad-official footprints as default search path')
         parser.add_argument('-o', '--output', required=True, help='an optional argument')
 
         return parser           # gets stored as self.parser
@@ -30,7 +32,10 @@ class Footprint(WestCommand):
                     dirnames.remove('.git')
                 for filename in filenames:
                     if os.path.splitext(filename)[-1] == '.kicad_mod':
-                        name = os.path.relpath(dirname, self.topdir).replace('\\', '/').replace('.pretty', '')
+                        if os.path.join(self.topdir, 'kicad', 'footprints') in dirname and args.keep:
+                            name = os.path.relpath(dirname, self.topdir).replace('\\', '/').replace("kicad/footprints/", '').replace('.pretty', '')
+                        else:
+                            name = os.path.relpath(dirname, self.topdir).replace('\\', '/').replace('.pretty', '')
                         uri = os.path.abspath(dirname).replace('\\', '/')
                         lib = '  (lib (name "{}")(type KiCad) (uri "{}") (options "") (descr ""))\n'.format(name, uri)
                         libs.append(lib)

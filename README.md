@@ -8,10 +8,22 @@ Kicad libraries management tool
 # Download
 `$ west init -m https://github.com/Cherish-forever/kicad_libraries.git && west update`
 
-# Generate footprint table
+# Generate table
+
+## Keep kicad-offical footprint and symbol compatible with kicad default libraries config(Recommend)
+
+### footprint
+`$ west footprint -o ~/.config/kicad/7.0/fp-lib-table -k True`
+
+### symbols
+`$ west symbol -o ~/.config/kicad/7.0/sym-lib-table -k True`
+
+## kicad-offical footprint and symbol be same with other repository(No Recommend)
+
+### footprint
 `$ west footprint -o ~/.config/kicad/7.0/fp-lib-table`
 
-# Generate symbol table
+### symbols
 `$ west symbol -o ~/.config/kicad/7.0/sym-lib-table`
 
 
