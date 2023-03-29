@@ -1,9 +1,9 @@
 manifest:
   projects:
-  - name: peekpt-kicad_smisioto
-    path: peekpt/kicad_smisioto
+  - name: peekpt-kicad-lib
+    path: peekpt/kicad-lib
     remote: github
-    repo-path: kicad_smisioto
+    repo-path: kicad-lib
     revision: master
   remotes:
   - name: github

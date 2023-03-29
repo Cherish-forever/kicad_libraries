@@ -1,0 +1,10 @@
+manifest:
+  projects:
+  - name: smisioto-kicad_libs
+    path: smisioto-kicad_libs
+    remote: smisioto
+    repo-path: kicad_libs.git
+    revision: master
+  remotes:
+  - name: smisioto
+    url-base: git://smisioto.eu
