@@ -19,3 +19,8 @@ west-commands:
       - name: gitmodule
         class: GitModule
         help: read a git repository submodule to generate submanifests
+  - file: scripts/environment.py
+    commands:
+      - name: env
+        class: Environment
+        help: Update kicad_common.json environment

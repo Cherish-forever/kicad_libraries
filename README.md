@@ -28,12 +28,56 @@ update all repository
 
 update and rebase all repository
 
-`west update --rebase`
+`$ west update --rebase`
 
 only update kicad/symbols
 
-`west update kicad/symbols`
+`$ west update kicad/symbols`
 
 only update kicad/symbols and rebase
 
-`west update kicad/symbols --rebase`
+`$ west update kicad/symbols --rebase`
+
+# How update kicad enverioment
+exp:
+
+```$ west env -c ~/.config/kicad/7.0/kicad_common.json -e "KICAD7_3DMODULE_DIR:`west topdir`/kicad/packages3D" "KICAD7_FOOTPRINT_DIR:`west topdir`/kicad/footprints" "KICAD7_SYMBOL_DIR:`west topdir`/kicad/symbols" "KICAD_USER_TEMPLATE_DIR:`west topdir`/kicad/templates"```
+
+`-c:` /path/to/kicad_common.json
+
+`-e:` "the enverioment you want set"
+
+# part or full repositories import
+
+## part
+
+```manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: https://github.com
+
+  self:
+    path: .kicad_libraries
+    west-commands: scripts/west-commands.yml
+    import:
+      - submanifests/kicad-official.yml
+```
+
+## full
+
+```manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: https://github.com
+
+  self:
+    path: .kicad_libraries
+    west-commands: scripts/west-commands.yml
+    import: submanifests
+```
