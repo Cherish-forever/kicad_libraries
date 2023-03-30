@@ -20,7 +20,7 @@ def add_3d_model(kicad_mod_data, model_folder, model_file_name):
     model_path = (Path(model_folder) / model_file_name).resolve()
     model_path = model_path.as_posix()
 
-    new_model_line = f'(model {model_path}\n    (offset (xyz 0 0 0))\n    (scale (xyz 1 1 1))\n    (rotate (xyz 0 0 0))\n  )'
+    new_model_line = f'(model \"{model_path}\"\n    (offset (xyz 0 0 0))\n    (scale (xyz 1 1 1))\n    (rotate (xyz 0 0 0))\n  )'
     pattern = re.compile(r'\(model(?:\s|\n)*((?:\((?:[^()]+|\((?:[^()]+|\([^()]*\))*\))*\)|[^\(\)]*)*)(?:\s|\n)*\)')
     mod_end_pattern = re.compile(r'\)[^\(\)]*$')
     if re.search(pattern, kicad_mod_data["content"]):
