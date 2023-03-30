@@ -26,7 +26,33 @@ Kicad libraries management tool
 ### symbols
 `$ west symbol -o ~/.config/kicad/7.0/sym-lib-table`
 
+# 3D model binding
 
+## command
+
+`$ python3 .kicad_libraries/scripts/model3d.py <footprint_path> <3d_model_path> <model extension>`
+
+eg:
+
+footprint path is Cylindric3D, 3d model path is Cylindric3D, the 3d model extension is ".wrl"
+
+`$ python3 .kicad_libraries/scripts/model3d.py Cylindric3D Cylindric3D ".wrl"`
+
+## batch process 3d model
+
+`$ ls | xargs -n 1 -I {} python3 .kicad_libraries/scripts/model3d.py {} {} ".wrl"`
+
+## batch process 3d model except kicad directory
+
+`$ ls -d */ | grep -Ev '^kicad/$' | sed 's#/$##' | xargs -n 1 -I {} python3 .kicad_libraries/scripts/model3d.py {} {} ".wrl"`
+
+## batch process 3d model recovery
+
+`$ west forall -c "git reset --hard HEAD"`
+
+## signle repository recovery
+
+`$ cd <path_have_git> && git reset --hard HEAD`
 
 # How to add repository
 
